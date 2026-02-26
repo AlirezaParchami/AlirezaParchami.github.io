@@ -55,8 +55,8 @@ cv:
       - company: Mercedes-Benz Tech Innovation
         position: Thesis Researcher/Candidate
         # location: Germany
-        start_date: 04.2025
-        end_date: 01.2026
+        start_date: 2025
+        end_date: 2026
         summary: Used Digital Twin and Ray-Tracing approach to collect data for Outside-the-Vehicle Referencing (OVR) in moving situation. Followed by designed an real-time GPU-accelerated Multi-modal network for predicting target POI.
         # highlights:
         #   - Relativity
@@ -65,8 +65,8 @@ cv:
       - company: Walt Disney Research Studios
         position: Research Intern
         location: Zurich, Switzerland
-        start_date: 08.2024
-        end_date: 01.2025
+        start_date: 2024
+        end_date: 2025
         summary:
         # highlights:
         #   - Relativity
@@ -95,30 +95,50 @@ cv:
       - company: École Polytechnique Fédérale de Lausanne (EPFL)
         position: Summer Research Intern
         start_date: 2021
-        end_date: 2021
+        # end_date: 2021
         summary: Researched on Knowledge-driven Visual Understanding of Autonomous Vehicles
         # highlights:
           # - Supervised by Dr. Thomas Leimkühler
 
       - company: University of Surrey (coop. with Jaguard Land Rover)
         position: Research Assistant
-        start_date: 02.2021
-        end_date: 06.2021
+        start_date: 2021
+        # end_date: 2021
         summary: Researched on ADAS Fault Diagnosis using RGB Frames in Autonomous Cars
         # highlights:
           # - Supervised by Dr. Thomas Leimkühler
 
 
-    # Volunteer:
-    #   - company: People's Climate March
-    #     position: Lead Organizer
-    #     location: Zurich, Switzerland
-    #     start_date: 2014-04-01
-    #     end_date: 2015-07-01
-    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-    #     highlights:
-    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-    #       - "Men of the year 2014 by Time magazine"
+    Volunteer:
+      - company: ACM Student Chapter, University of Isfahan
+        position: Elected Member
+        # location: Zurich, Switzerland
+        start_date: 2017
+        end_date: 2019
+        summary: Co-organized programming contests, workshops, and technical events.
+        # highlights:
+        #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+        #   - "Men of the year 2014 by Time magazine"
+
+      - company: People's Climate March
+        position: Lead Organizer
+        location: Zurich, Switzerland
+        start_date: 2014-04-01
+        end_date: 2015-07-01
+        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        highlights:
+          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+          - "Men of the year 2014 by Time magazine"
+
+      # - company: People's Climate March
+      #   position: Lead Organizer
+      #   location: Zurich, Switzerland
+      #   start_date: 2014-04-01
+      #   end_date: 2015-07-01
+      #   summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      #   highlights:
+      #     - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+      #     - "Men of the year 2014 by Time magazine"
 
 
 
