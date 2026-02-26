@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Engineer | Visual Computing and AI # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -35,9 +35,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi, I'm Alireza &#x1F44B;&#xFE0F;
 
-I'm a research engineer with 4+ years of experiences in research and development in reputable groups such as Disney Resarch, EPFL, Mercedes-Benz Tech Innovation, and Max Planck Institute for Informatics.
+I'm a research engineer with 4+ years of experiences in research and development, having had the privilege to work with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation, and the Max Planck Institute for Informatics.
 
-I love to create and innovate, that's why I am passionate about research and making effective products out of that. For the same reason, I am highly eager on image synthesis and rendering, as you can create images and frames to represent the world VISUALLY. You may now have an idea why I chose to study M. Sc. Visual Computing at one of the top universities of Europe in the field of Visual Computing.
+I love to create and innovate, which is why I am passionate about research and turning it into effective applications. For the same reason, I am highly drawn to image synthesis and rendering as it allows to create images that represent the world VISUALLY. You may now have an idea why I chose to study my M.Sc. in Visual Computing at one of Europe's top universities in this field.
 
-I'm open to R&D roles, and I would be happy to contrinue projects in the field of Computer Graphics, 3D Vision, Extended Reality, and AI. If you have anything to chat, feel free to reach out :)
-
+I'm open to Research Engineer and R&D roles, as well as PhD opportunities, where I can contribute to projects in Computer Graphics, 3D Vision, Extended Reality, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)
