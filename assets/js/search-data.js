@@ -421,6 +421,11 @@ ninja.data = [{
           description: "Using Deep Learning for Multiple Face Recognition (Face Detection + Face Tagging) with capability of learning your people",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2020_MultipleFaceRecognition/";
+            },},{id: "projects-custom-c-ray-tracer",
+          title: 'Custom C++ Ray Tracer',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2022_ComputerGraphics-FinalProject/";
             },},{id: "projects-freestylegan-dev",
           title: 'FreeStyleGAN Dev',
           description: "Engineering on GAN-Based Image Synthesis",
