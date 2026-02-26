@@ -68,7 +68,7 @@ cv:
         location: Zurich, Switzerland
         start_date: 2024
         end_date: 2025
-        summary: "Researched on stylized 2D workflows from RGB videos exploring dual methods: traditional toon shaders vs. Generative AI (Stable Diffusion, LoRA, ControlNet).""
+        summary: "Researched on stylized 2D workflows from RGB videos exploring dual methods: traditional toon shaders vs. Generative AI (Stable Diffusion, LoRA, ControlNet)."
         # highlights:
         #   - Relativity
         #   - Description 2.
@@ -194,7 +194,7 @@ cv:
 
       - name: Libraries
         # level:
-        icon: "fas fa-cubes"
+        icon: fas fa-cubes
         keywords: "PyTorch, TensorFlow, OpenCV, Qt, CUDA"
 
       - name: Tools
@@ -204,7 +204,7 @@ cv:
 
       - name: Professional
         # level:
-        icon: "fa-solid fa-briefcase"
+        icon: fa-solid fa-briefcase
         keywords: "Research & Analysis, Parallel & GPU-Accelerated Computing, High-Performance Machine Learning, Algorithm Design"
 
 

@@ -17,8 +17,9 @@
             {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
           {% endcapture %}
 
-
-          {% if start_date != '' %}
+          {% if entry.year %}
+            {% assign date = entry.year %}
+          {% elsif start_date != '' %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
