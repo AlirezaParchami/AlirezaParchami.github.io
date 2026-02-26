@@ -110,7 +110,9 @@ cv:
           # - Supervised by Dr. Thomas Leimkühler
 
 
-    Volunteer:
+  - title: Volunteer
+    type: experience
+    contents:
       - company: ACM Student Chapter, University of Isfahan
         position: Elected Member
         # location: Zurich, Switzerland
@@ -145,31 +147,31 @@ cv:
 
     Awards:
       - title: ERASMUS+ Scholarship
-        authors:
+        # authors:
         date: 2024
         awarder: Saarland University
         url:
-        summary:
+        # summary:
 
       - title: Top 10% Student in B.Sc. Information Technology
-        authors:
+        # authors:
         date: 2020
         awarder: University of Isfahan
-        summary:
+        # summary:
 
       - title: RoboCup International Competition, Honorable Mention
-        authors:
+        # authors:
         date: 2018
         url: https://www.robocup.org/
         awarder: IranOpen 2018 International Competition
         summary: Developed an Autonomous Navigator Robot in a cross-disciplinary 6-person robotics team. Served as Image Processing Engineer.
 
       - title: 16th Place at Asia Regional Programming Contest
-        authors:
+        # authors:
         date: 2017
         url: https://icpc.global/
         awarder: ACM Programming Contests (ACM-ICPC)
-        summary: 
+        # summary: 
 
 
 
