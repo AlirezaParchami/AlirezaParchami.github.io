@@ -8,11 +8,9 @@ profile:
   align: right
   image: alireza.jpg
   image_circular: false # crops the image to make it circular
+  style: "border-radius: 10px;"
   more_info: >
     Based in Germany
-    # <p>555 your office number</p>
-    # <p>123 your address street</p>
-    # <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -37,6 +35,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Hi, I'm Alireza 👋
 
 I'm a research engineer with 4+ years of experiences in research and development in reputable groups such as Disney Resarch, EPFL, Mercedes-Benz Tech Innovation, and Max Planck Institute for Informatics.
-I love to create and innovate, that's why I am passionate about research and making effective products out of that. For the same reason, I am highly eager on image synthesis and rendering too, as you can create images and frames to represent the world VISUALLY. You may now know why I studied M. Sc. Visual Computing at one of the top universities of Europe in this field, Saarland University.
+
+I love to create and innovate, that's why I am passionate about research and making effective products out of that. For the same reason, I am highly eager on image synthesis and rendering, as you can create images and frames to represent the world VISUALLY. You may now have an idea why I chose to study M. Sc. Visual Computing at one of the top universities of Europe in the field of Visual Computing.
 
 I'm open to R&D roles, and I would be happy to contrinue projects in the field of Computer Graphics, 3D Vision, Extended Reality, and AI. If you have anything to chat, feel free to reach out :)
