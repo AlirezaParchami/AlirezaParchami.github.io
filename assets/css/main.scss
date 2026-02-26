@@ -37,3 +37,16 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+
+/* 1. Make Project Titles Smaller and Bold */
+.grid-item .card-title {
+   font-size: 1.3rem !important;  /* Shrinks it down (adjust number to taste) */
+   font-weight: 700 !important;   /* Makes it thick and bold */
+}
+
+/* 2. Force Images to the Same Height & Auto-Crop */
+.grid-item .card-img-top {
+   height: 220px !important;      /* Forces all images to be exactly this tall */
+   object-fit: cover !important;  /* Crops the edges instead of squishing the image! */
+}
