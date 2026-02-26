@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
-description: 
+title: "The Missing Key: Touchpad Toggle Utility"
+description: a C++ driver-level toggle to prevent accidental clicks while typing on XPS 13
 img: assets/img/projects/2019_Dell-XPS-Touchpad-Swtich/cover2.png
 importance: 2
 category: Fun
@@ -24,7 +24,7 @@ If you have the same laptop and suffering from the same issue, feel free to down
 
 
 
-### The Missing Key: Dell XPS 13 Touchpad Toggle
+<!-- ### The Missing Key: Dell XPS 13 Touchpad Toggle -->
 
 While coding at the library without an external mouse, my palms kept brushing the trackpad. The cursor would jump, and suddenly I was typing code in a random paragraph. Extremely annoying!
 
