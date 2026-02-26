@@ -11,5 +11,3 @@ toc:
   sidebar: left
 ---
 
-{% when 'Volunteer' %}
-  {% include cv/volunteer.liquid %}
