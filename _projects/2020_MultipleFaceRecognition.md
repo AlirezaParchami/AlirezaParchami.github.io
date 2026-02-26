@@ -2,8 +2,61 @@
 layout: page
 title: Multiple Face Recognition
 description: Using Deep Learning for Multiple Face Recognition (Face Detection + Face Tagging) with capability of learning your people
-img: assets/img/projects/2020_MultipleFaceRecognition/cover.PNG
+img: assets/img/projects/2020_MultipleFaceRecognition/cover.jpg
 importance: 1
 category: Fun
 related_publications: false
 ---
+
+
+# Real-Time Multiple Face Recognition & Learning Pipeline
+
+I developed a robust, deep-learning-based Multiple Face Recognition application capable of identifying and tagging multiple faces in both static images and live video feeds. Designed with flexibility in mind, the system doesn't just recognize known faces but it actively detects unknown individuals and features an interactive "Learning Phase" to register new faces on the fly.
+
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2020_MultipleFaceRecognition/cover.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+### ✨ Core Features
+
+* **Multi-Face Detection:** Accurately localizes and identifies multiple faces simultaneously within a single frame or photograph.
+* **Live Video Processing:** Analyzes live webcam feeds in real-time, overlaying bounding boxes and identifying names instantly.
+* **Interactive Learning Phase:** When the system detects an unfamiliar face in an image, it automatically crops the region of interest (ROI), displays it, and prompts the user to enter the person's name, instantly adding them to the database.
+* **Dynamic Database Updates:** Allows for the seamless addition of new people or new reference photos to the trained data without needing to retrain the entire model from scratch.
+
+
+### Under the Hood: Technical Details
+
+This project is built on a Python stack using powerful computer vision and machine learning libraries. Here is how the pipeline works:
+
+* **Face Localization (HOG):** The application relies on the **HOG (Histogram of Oriented Gradients)** algorithm via the `dlib` backend to efficiently find face bounding boxes in the wild.
+* **Deep Metric Learning:** Once a face is located, it is passed through a deep neural network to generate a **128-dimensional facial encoding** (using the `face_recognition` library). 
+* **Similarity Matching:** To identify a person, the system calculates the Euclidean distance between the newly generated face encoding and the encodings stored in the database, using a strict tolerance threshold (0.5) to ensure high accuracy and prevent false positives.
+* **Real-Time Optimization:** Processing high-resolution video frame-by-frame is computationally heavy. To achieve smooth real-time performance via **OpenCV (`cv2`)**, the webcam feed is downscaled by a factor of 4 before processing. The facial coordinates are then mapped back to the original resolution for drawing.
+* **Data Serialization:** Instead of keeping a heavy database, known face encodings are efficiently serialized and stored using Python's `pickle` library, allowing for lightning-fast loading and incremental updates. Duplicate encodings are automatically filtered out using `numpy.unique`.
+
+
+### 🚀 How It Works in Practice
+
+1.  **Encoding Phase:** The system scans a designated directory of folders, extracting 128-d encodings for all known faces and pickling them into a lightweight `.db` file.
+2.  **Detection Phase:** Users can input a static image or start their webcam. The system highlights known faces in red with name tags using `Pillow (PIL)`.
+3.  **Learning Phase:** If the system is analyzing a static image and encounters a face that doesn't match the database, it triggers a UI prompt (built with `tkinter` and CLI), asking "Who is this person?". The newly learned face is instantly encoded and saved.
+
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2020_MultipleFaceRecognition/learning.jpg" title="Learning Phase" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+### 💻 Open Source & Source Code
+
+This project is open-source!
+Whether you want to test the real-time detection on your own webcam, explore the face encoding logic, or fork the repository, you can find the complete source code and installation instructions on my GitHub.
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-View_Source_Code-blue?logo=github)]([https://github.com/YOUR-USERNAME/YOUR-REPO-NAME](https://github.com/AlirezaParchami/Multiple-Face-Recognition-in-Videos))

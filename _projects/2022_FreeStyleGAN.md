@@ -20,7 +20,7 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 ### About FreeStyleGAN
 
 <div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/FreeStyleGAN/method.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
@@ -34,10 +34,10 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 - **Semantic Editing:** Retain StyleGAN’s high-quality editing to easily modify attributes like facial expressions or age.
 
 <div class="row justify-content-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/FreeStyleGAN/Free-view Camera Control.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/FreeStyleGAN/View-consistent Editing.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
