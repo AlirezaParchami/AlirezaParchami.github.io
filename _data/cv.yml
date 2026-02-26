@@ -54,7 +54,7 @@ cv:
     Experience:
       - company: Mercedes-Benz Tech Innovation
         position: Thesis Researcher/Candidate
-        # location: Germany
+        location: Germany
         start_date: 2025
         end_date: 2026
         summary: Used Digital Twin and Ray-Tracing approach to collect data for Outside-the-Vehicle Referencing (OVR) in moving situation. Followed by designed an real-time GPU-accelerated Multi-modal network for predicting target POI.
@@ -139,15 +139,6 @@ cv:
         #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
         #   - "Men of the year 2014 by Time magazine"
 
-      # - company: People's Climate March
-      #   position: Lead Organizer
-      #   location: Zurich, Switzerland
-      #   start_date: 2014-04-01
-      #   end_date: 2015-07-01
-      #   summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-      #   highlights:
-      #     - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-      #     - "Men of the year 2014 by Time magazine"
 
 
 
