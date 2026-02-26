@@ -110,9 +110,7 @@ cv:
           # - Supervised by Dr. Thomas Leimkühler
 
 
-  - title: Volunteer
-    type: experience
-    contents:
+    Volunteer:
       - company: ACM Student Chapter, University of Isfahan
         position: Elected Member
         # location: Zurich, Switzerland
