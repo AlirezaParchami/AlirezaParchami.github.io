@@ -74,7 +74,7 @@ Originally, the project's rendering pipeline was strictly bound to Windows envir
 ##### 3. High-Throughput Batch Rendering
 The legacy pipeline was limited to sequential, single-image rendering. Generating free-viewpoint sequences across multiple camera angles was highly time-consuming, leaving server GPUs severely underutilized during execution. I designed and integrated a batch rendering protocol that processes multiple novel views concurrently. This optimization dynamically maximized GPU saturation, resulting in significantly accelerated data synthesis throughput for large-scale volumetric and multi-angle rendering tasks.
 
----
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
 
 * For more information on the project and methodology, visit the [Project Page](https://repo-sam.inria.fr/fungraph/freestylegan/).
 * For applied contributions and implementation details, visit the [FreeStyleGAN Source Code](https://gitlab.inria.fr/fungraph/freestylegan).

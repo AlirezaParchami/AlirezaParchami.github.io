@@ -57,7 +57,8 @@ cv:
         location: Germany
         start_date: 2025
         end_date: 2026
-        summary: Used Digital Twin and Ray-Tracing approach to collect data for Outside-the-Vehicle Referencing (OVR) in moving situation. Followed by designed an real-time GPU-accelerated Multi-modal network for predicting target POI.
+        # summary: Used Digital Twin and Ray-Tracing approach to collect data for Outside-the-Vehicle Referencing (OVR) in moving situation. Followed by designed an real-time GPU-accelerated Multi-modal network for predicting target POI.
+        summary: Developed in-car XR system using digital twins & Ray-Tracing algorithms; Researched multi-modal transformer-based network for real-time POI prediction.
         # highlights:
         #   - Relativity
         #   - Description 2.
@@ -67,7 +68,7 @@ cv:
         location: Zurich, Switzerland
         start_date: 2024
         end_date: 2025
-        summary:
+        summary: "Researched on stylized 2D workflows from RGB videos exploring dual methods: traditional toon shaders vs. Generative AI (Stable Diffusion, LoRA, ControlNet).""
         # highlights:
         #   - Relativity
         #   - Description 2.
@@ -88,7 +89,7 @@ cv:
         start_date: 2021
         end_date: 2022
         url: https://alirezaparchami.github.io/projects/2022_FreeStyleGAN/
-        summary: Engineering and Research on GAN-based Image Synthesis
+        summary: Engineered and Researched on GAN-based Image Synthesis
         # highlights:
           # - Supervised by Dr. Thomas Leimkühler
 
