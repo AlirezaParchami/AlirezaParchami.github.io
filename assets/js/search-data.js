@@ -415,6 +415,16 @@ ninja.data = [{
           title: 'FreeStyleGAN Dev',
           description: "Engineering on GAN-Based Image Synthesis",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/2019_Dell-XPS-Touchpad-Swtich/";
+            },},{id: "projects-multiple-face-recognition",
+          title: 'Multiple Face Recognition',
+          description: "Using Deep Learning for Multiple Face Recognition (Face Detection + Face Tagging) with capability of learning your people",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2020_MultipleFaceRecognition/";
+            },},{id: "projects-freestylegan-dev",
+          title: 'FreeStyleGAN Dev',
+          description: "Engineering on GAN-Based Image Synthesis",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/2022_FreeStyleGAN/";
             },},{id: "projects-project-2",
           title: 'project 2',
