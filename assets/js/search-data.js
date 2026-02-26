@@ -411,9 +411,9 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-2019-dell-xps-touchpad-swtich",
-          title: '2019_dell Xps Touchpad Swtich',
-          description: "",
+            },},{id: "projects-the-missing-key-touchpad-toggle-utility",
+          title: 'The Missing Key: Touchpad Toggle Utility',
+          description: "a C++ driver-level toggle to prevent accidental clicks while typing on XPS 13",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2019_Dell-XPS-Touchpad-Swtich/";
             },},{id: "projects-real-time-multiple-face-recognition",
