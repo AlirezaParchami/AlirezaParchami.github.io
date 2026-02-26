@@ -411,13 +411,13 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-freestylegan-dev",
-          title: 'FreeStyleGAN Dev',
-          description: "Engineering on GAN-Based Image Synthesis",
+            },},{id: "projects-2019-dell-xps-touchpad-swtich",
+          title: '2019_dell Xps Touchpad Swtich',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2019_Dell-XPS-Touchpad-Swtich/";
-            },},{id: "projects-multiple-face-recognition",
-          title: 'Multiple Face Recognition',
+            },},{id: "projects-real-time-multiple-face-recognition",
+          title: 'Real-Time Multiple Face Recognition',
           description: "Using Deep Learning for Multiple Face Recognition (Face Detection + Face Tagging) with capability of learning your people",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2020_MultipleFaceRecognition/";
