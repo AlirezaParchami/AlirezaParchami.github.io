@@ -40,3 +40,4 @@ I'm a research engineer with 4+ years of experiences in research and development
 I love to create and innovate, that's why I am passionate about research and making effective products out of that. For the same reason, I am highly eager on image synthesis and rendering, as you can create images and frames to represent the world VISUALLY. You may now have an idea why I chose to study M. Sc. Visual Computing at one of the top universities of Europe in the field of Visual Computing.
 
 I'm open to R&D roles, and I would be happy to contrinue projects in the field of Computer Graphics, 3D Vision, Extended Reality, and AI. If you have anything to chat, feel free to reach out :)
+
