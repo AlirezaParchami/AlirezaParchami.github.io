@@ -123,22 +123,22 @@ cv:
     Skills:
       - name: Languages
         # level:
-        icon: fa-solid #fa-hashtag
+        icon: fa-solid fa-code #fa-hashtag
         keywords: "C++, Python, C#, MATLAB"
 
       - name: Libraries
         # level:
-        icon: fa-solid #fa-hashtag
+        icon: fa-solid fa-cubes #fa-hashtag
         keywords: "PyTorch, TensorFlow, OpenCV, Qt, CUDA"
 
       - name: Tools
         # level:
-        icon: fa-solid #fa-hashtag
+        icon: fa-solid fa-screwdriver-wrench #fa-hashtag
         keywords: "Unity 3D, ComfyUI, COLMAP, Blender, MeshLab, CMake"
 
       - name: Professional
         # level:
-        icon: fa-solid #fa-hashtag
+        icon: fa-solid fa-briefcase #fa-hashtag
         keywords: "Research & Analysis, Parallel & GPU-Accelerated Computing, High-Performance Machine Learning, Algorithm Design"
 
 
