@@ -3,7 +3,7 @@ layout: page
 title: "The Missing Key: Touchpad Toggle Utility"
 description: a C++ driver-level toggle to prevent accidental clicks while typing on XPS 13
 img: assets/img/projects/2019_Dell-XPS-Touchpad-Swtich/cover2.png
-importance: 2
+importance: 3
 category: Fun
 related_publications: false
 ---

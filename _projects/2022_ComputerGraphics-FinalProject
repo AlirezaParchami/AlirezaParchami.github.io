@@ -1,0 +1,152 @@
+---
+layout: page
+title: Custom C++ Ray Tracer
+description: 
+img: assets/img/projects/2022_ComputerGraphics-FinalProject/image.png
+importance: 1
+category: Fun
+related_publications: false
+---
+
+
+
+# Building a Custom C++ CPU Ray Tracer: The "Lonely Snowman"
+
+**TL;DR:** Co-developed a custom multithreaded CPU ray tracing engine in **C++** to render a complex, stylized 3D scene. Extending a baseline framework, my teammate and I engineered core computer graphics and ray-tracing algorithms for spatial acceleration, light transport, and physically based rendering.
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/image.png" title="Image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Final Rendered Image from Our Custom Ray-Tracer</div>
+    </div>
+</div>
+
+
+<hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
+
+### ⚙️ Core Technical Features
+
+We engineered custom logic to solve specific rendering challenges:
+
+
+**1. Procedural Volumetrics (Double-Sided Primitives)**
+Our procedural confetti relies on randomly rotated discs. We engineered custom double-sided normal calculations so rays hitting the "back" of the confetti still evaluate color correctly, preventing black artifacts.
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/discs.png" title="discs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+**2. Transmissive Light Transport ("Magic Glass")**
+Standard glass primitives block shadow rays, creating unrealistic dark voids. We modified the recursive ray-tracing integrator so external light passes through the globe, while preventing internal point lights from casting false, enlarged shadows outside.
+
+<div class="row justify-content-center">
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/insideShadows.png" title="Shadows from Inside" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Shadows from Inside</div>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/outsideShadows.png" title="No Outside Shadows" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">No Outside Shadows</div>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/illumination.png" title="Illumination from Outside" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Illumination from Outside</div>
+    </div>
+</div>
+
+
+**3. Physically Based Camera (Depth of Field)**
+By simulating a physical lens aperture and focal plane, we added Depth of Field to naturally guide the viewer's eye to the snowman while blurring the background lighting.
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/dof.png" title="DoF" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+**4. Surface Normal Perturbation (Bump Mapping)**
+We applied noise-based and wood-grain bump maps to the walls and shelves to break up the flat CGI look, calculating surface normal modifications during the shading phase.
+<div class="row justify-content-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/1_no_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/1_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/2_no_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/2_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+**5. Performance & Optimization**
+* **Bounding Volume Hierarchy (BVH):** Implemented spatial acceleration to optimize ray-primitive intersection tests for the high-polygon imported snowman.
+* **Mesh Instancing:** Expanded the engine's loading pipeline to support instancing, drastically reducing the memory footprint of duplicated 3D assets.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/instancing.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+        <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/bvh.png" title="BVH" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+This project was a fantastic deep dive into rendering equations, spatial data structures, and the intersection of software engineering and digital art. It was a part of our Computer Graphics course offered by [CG-Group of Saarland University](https://graphics.cg.uni-saarland.de/courses/cg1-2021/index.html).
+
+
+<hr style="margin: 1.5rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.5);">
+
+
+
+### 📖 Project Deep Dive: Engineering the Scene
+
+As part of my Computer Graphics coursework, I collaborated in a team of two to develop a custom CPU-based ray tracer in C++. While the base framework provided the core multithreading architecture, our team was responsible for implementing the fundamental ray-tracing physics, math logic, and a suite of advanced rendering features to bring our final scene to life.
+
+Our final render, titled **"The Lonely Snowman,"** tells the story of the last snow globe left on a Christmas market shelf.
+
+## 🚀 Engine Features & Technical Implementation
+
+To achieve a photorealistic and cinematic result, we engineered several advanced features into the rendering pipeline:
+
+### 1. Bounding Volume Hierarchy (BVH) Acceleration
+
+Ray tracing thousands of confetti discs alongside a high-polygon imported snowman mesh is incredibly computationally expensive. We implemented a **Bounding Volume Hierarchy (BVH)** spatial acceleration structure to optimize ray-primitive intersection tests, drastically reducing our overall rendering time.
+
+### 2. "Magic Glass" (Custom Integrator Logic)
+
+Rendering the glass snow globe presented a complex challenge regarding shadow rays and transmissive materials.
+
+- **The Problem:** Our original glass implementation blocked shadow rays, preventing objects inside the globe from receiving outside light and casting harsh, unrealistic shadows. Furthermore, having point lights _inside_ the globe created false illumination and enlarged shadows outside the sphere.
+- **The Solution:** We modified the `recraytrace` (recursive ray tracing) integrator to cast shadow rays with higher material-awareness. When a shadow ray intersects an object, the integrator checks the material type. If it intersects glass, the shadow is ignored, allowing light to pass through. We added specific conditional logic: light from the outside can illuminate the interior, but light originating from inside the globe cannot cast shadows outside.
+
+
+### 3. Double-Sided Primitives for Volumetrics
+
+The confetti inside the globe was created by randomly sampling points within the sphere, assigning them random rotations and colors.
+
+- **The Challenge:** Our standard `Disc` primitive was one-sided, meaning light rays hitting the back face returned black, ruining the illusion of colorful confetti.
+- **The Solution:** Using object-oriented principles, we derived a custom `DoubleSidedDisc` class from the original `Disc` class, ensuring that normal calculations and color evaluations worked correctly regardless of the ray's incident angle.
+
+### 4. Physically Based Camera Effects
+
+- **Depth of Field (DoF):** To give the render a cinematic feel and direct the viewer's eye to the "lonely" snowman, we implemented Depth of Field. By simulating a physical camera aperture and focal plane, we achieved a realistic bokeh blur on the background lights and shelves.
+
+### 5. Advanced Texturing & Asset Management
+
+- **Bump Mapping:** To break up the flat CGI look of the background, we implemented bump mapping. We applied a noise-based bump map to the walls for a plaster-like texture and a wood grain pattern to the shelves, calculating surface normal perturbations during the shading phase.
+- **Mesh Instancing:** We expanded the engine's asset loaders to support instancing. This allowed us to duplicate complex imported objects in memory without linear memory overhead. (We initially tested this by giving the snowman a friend, but reverted to a single snowman to maintain the artistic theme!).
+
+
+<hr style="margin: 1.4rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.5);">
+
+
+This project was a fantastic deep dive into rendering equations, spatial data structures, and the intersection of software engineering and digital art.
