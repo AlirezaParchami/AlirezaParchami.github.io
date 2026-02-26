@@ -51,17 +51,62 @@ cv:
 
 
 
-    # Experience:
-    #   - company: Institute for Advanced Study, Princeton University
-    #     position: Professor of Theoretical Physics
-    #     location: Princeton University, NJ
-    #     start_date: 1933
-    #     end_date: 1955
-    #     summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-    #     highlights:
-    #       - Relativity
-    #       - Description 2.
+    Experience:
+      - company: Mercedes-Benz Tech Innovation
+        position: Thesis Researcher/Candidate
+        # location: Germany
+        start_date: 04.2025
+        end_date: 01.2026
+        summary: Used Digital Twin and Ray-Tracing approach to collect data for Outside-the-Vehicle Referencing (OVR) in moving situation. Followed by designed an real-time GPU-accelerated Multi-modal network for predicting target POI.
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
 
+      - company: Walt Disney Research Studios
+        position: Research Intern
+        location: Zurich, Switzerland
+        start_date: 08.2024
+        end_date: 01.2025
+        summary:
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
+
+      - company: August-Wilhelm Scheer Institut (AWS-i)
+        position: XR Developer & Researcher
+        location: Saarbrücken, Germany
+        start_date: 2022
+        end_date: 2024
+        summary: Designed and Developed two innovative projects on digital education using XR and Haptic devices
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
+
+      - company: Max Planck Institute for Informatics (MPI-Inf)
+        position: "Research Assistant (HIWI)"
+        location: Saarbrücken, Germany
+        start_date: 2021
+        end_date: 2022
+        url: https://alirezaparchami.github.io/projects/2022_FreeStyleGAN/
+        summary: Engineering and Research on GAN-based Image Synthesis
+        # highlights:
+          # - Supervised by Dr. Thomas Leimkühler
+
+      - company: École Polytechnique Fédérale de Lausanne (EPFL)
+        position: Summer Research Intern
+        start_date: 2021
+        end_date: 2021
+        summary: Researched on Knowledge-driven Visual Understanding of Autonomous Vehicles
+        # highlights:
+          # - Supervised by Dr. Thomas Leimkühler
+
+      - company: University of Surrey (coop. with Jaguard Land Rover)
+        position: Research Assistant
+        start_date: 02.2021
+        end_date: 06.2021
+        summary: Researched on ADAS Fault Diagnosis using RGB Frames in Autonomous Cars
+        # highlights:
+          # - Supervised by Dr. Thomas Leimkühler
 
 
     # Volunteer:

@@ -13,7 +13,11 @@ related_publications: false
 
 I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](https://ismael.mpi-inf.mpg.de/) at Computer Graphics and Visual Computing Department (D4/D6) of Max Planck Institute for Informatics (MPI-Inf) to conduct research and engineering in GAN-based image synthesis.
 
-<hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.3);">
+
+
+<hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
 
 ### About FreeStyleGAN
 
@@ -40,7 +44,12 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
     </div>
 </div>
 
-<hr style="margin: 2rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.5);">
+
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.4);">
+
+
+
 
 ### My Key Contributions
 
@@ -51,7 +60,7 @@ My work focused on optimizing the FreeStyleGAN pipeline for scale, accessibility
 3. **Implementing batch rendering protocols** to maximize GPU utilization and accelerate synthesis throughput.
 
 
-<hr style="margin: 2rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.5);">
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
 
 
 ### Contribution Details
@@ -70,11 +79,14 @@ The legacy pipeline was limited to sequential, single-image rendering. Generatin
 * For more information on the project and methodology, visit the [Project Page](https://repo-sam.inria.fr/fungraph/freestylegan/).
 * For applied contributions and implementation details, visit the [FreeStyleGAN Source Code](https://gitlab.inria.fr/fungraph/freestylegan).
 
----
-<br/>
+
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.4);">
+
+
+
 
 #### Project Video
-<br/>
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">

@@ -25,7 +25,10 @@ I developed a robust, deep-learning-based Multiple Face Recognition application 
     </div>
 </div>
 
-<br/>
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
 ### ✨ Core Features
 
 * **Multi-Face Detection:** Accurately localizes and identifies multiple faces simultaneously within a single frame or photograph.
@@ -33,7 +36,10 @@ I developed a robust, deep-learning-based Multiple Face Recognition application 
 * **Interactive Learning Phase:** When the system detects an unfamiliar face in an image, it automatically crops the region of interest (ROI), displays it, and prompts the user to enter the person's name, instantly adding them to the database.
 * **Dynamic Database Updates:** Allows for the seamless addition of new people or new reference photos to the trained data without needing to retrain the entire model from scratch.
 
-<br/>
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
 ### Under the Hood: Technical Details
 
 This project is built on a Python stack using powerful computer vision and machine learning libraries. Here is how the pipeline works:
@@ -44,7 +50,10 @@ This project is built on a Python stack using powerful computer vision and machi
 * **Real-Time Optimization:** Processing high-resolution video frame-by-frame is computationally heavy. To achieve smooth real-time performance via **OpenCV (`cv2`)**, the webcam feed is downscaled by a factor of 4 before processing. The facial coordinates are then mapped back to the original resolution for drawing.
 * **Data Serialization:** Instead of keeping a heavy database, known face encodings are efficiently serialized and stored using Python's `pickle` library, allowing for lightning-fast loading and incremental updates. Duplicate encodings are automatically filtered out using `numpy.unique`.
 
-<br/>
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
 ### 🚀 How It Works in Practice
 
 1.  **Encoding Phase:** The system scans a designated directory of folders, extracting 128-d encodings for all known faces and pickling them into a lightweight `.db` file.
@@ -58,7 +67,10 @@ This project is built on a Python stack using powerful computer vision and machi
     </div>
 </div>
 
-<br/>
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
+
 ### 💻 Open Source & Source Code
 
 This project is open-source!

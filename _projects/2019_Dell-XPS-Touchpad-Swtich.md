@@ -37,7 +37,9 @@ This meant if I disabled the touchpad via software without an external mouse, I 
     </div>
 </div>
 
-<br/>
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
+
 
 #### **The Solution:**
 To fix this, I engineered the missing feature myself. I wrote a lightweight **C++ application** that:
@@ -50,6 +52,8 @@ Since the `F7` key on its keyboard was unassigned, I mapped a global shortcut (`
 A highly irritating daily problem solved through a quick micro-project, and compensate the lack of Touchpad key :)
 By the way, it was fun and a real problem of my daily tasks solved :D
 
+
+<hr style="margin: 1.3rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.4);">
 
 
 ### Suffer from the same issue?
