@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom C++ Ray Tracer
-description: 
+description: The "Lonely Snowman" is the result of our Custom Ray-Tracer Algorithm
 img: assets/img/projects/2022_ComputerGraphics-FinalProject/image.png
 importance: 1
 category: Fun
@@ -10,12 +10,10 @@ related_publications: false
 
 
 
-# Building a Custom C++ CPU Ray Tracer: The "Lonely Snowman"
-
 **TL;DR:** Co-developed a custom multithreaded CPU ray tracing engine in **C++** to render a complex, stylized 3D scene. Extending a baseline framework, my teammate and I engineered core computer graphics and ray-tracing algorithms for spatial acceleration, light transport, and physically based rendering.
 
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    <div class="col-sm-8 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/image.png" title="Image" class="img-fluid rounded z-depth-1" %}
         <div class="caption mt-2" style="font-size: 0.85rem;">Final Rendered Image from Our Custom Ray-Tracer</div>
     </div>
@@ -34,8 +32,9 @@ We engineered custom logic to solve specific rendering challenges:
 **1. Procedural Volumetrics (Double-Sided Primitives)**
 Our procedural confetti relies on randomly rotated discs. We engineered custom double-sided normal calculations so rays hitting the "back" of the confetti still evaluate color correctly, preventing black artifacts.
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/discs.png" title="discs" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Double-Sided Discs</div>
     </div>
 </div>
 
@@ -62,7 +61,7 @@ Standard glass primitives block shadow rays, creating unrealistic dark voids. We
 **3. Physically Based Camera (Depth of Field)**
 By simulating a physical lens aperture and focal plane, we added Depth of Field to naturally guide the viewer's eye to the snowman while blurring the background lighting.
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/dof.png" title="DoF" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -70,16 +69,16 @@ By simulating a physical lens aperture and focal plane, we added Depth of Field 
 **4. Surface Normal Perturbation (Bump Mapping)**
 We applied noise-based and wood-grain bump maps to the walls and shelves to break up the flat CGI look, calculating surface normal modifications during the shading phase.
 <div class="row justify-content-center">
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/1_no_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/1_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/2_no_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/2_bmp.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -89,11 +88,13 @@ We applied noise-based and wood-grain bump maps to the walls and shelves to brea
 * **Mesh Instancing:** Expanded the engine's loading pipeline to support instancing, drastically reducing the memory footprint of duplicated 3D assets.
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/instancing.png" title="" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Instancing Objects</div>
     </div>
-        <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="col-sm-6 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2022_ComputerGraphics-FinalProject/bvh.png" title="BVH" class="img-fluid rounded z-depth-1" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">BVH</div>
     </div>
 </div>
 
@@ -104,7 +105,6 @@ This project was a fantastic deep dive into rendering equations, spatial data st
 
 
 <hr style="margin: 1.5rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.5);">
-
 
 
 ### 📖 Project Deep Dive: Engineering the Scene
