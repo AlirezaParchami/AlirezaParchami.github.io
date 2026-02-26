@@ -13,9 +13,7 @@ related_publications: false
 
 I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](https://ismael.mpi-inf.mpg.de/) at Computer Graphics and Visual Computing Department (D4/D6) of Max Planck Institute for Informatics (MPI-Inf) to conduct research and engineering in GAN-based image synthesis.
 
----
-<br/>
-
+<hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.3);">
 
 ### About FreeStyleGAN
 
@@ -42,8 +40,7 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
     </div>
 </div>
 
----
-<br/>
+<hr style="margin: 2rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.5);">
 
 ### My Key Contributions
 
@@ -53,8 +50,9 @@ My work focused on optimizing the FreeStyleGAN pipeline for scale, accessibility
 2. **Engineering headless OpenGL support** via the **GLFW/EGL** framework to enable off-screen, **GPU-accelerated rendering** on Linux servers.
 3. **Implementing batch rendering protocols** to maximize GPU utilization and accelerate synthesis throughput.
 
----
-<br/>
+
+<hr style="margin: 2rem 0; border: none; border-top: 2px solid rgba(0, 0, 0, 0.5);">
+
 
 ### Contribution Details
 
