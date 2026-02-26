@@ -35,7 +35,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi, I'm Alireza &#x1F44B;&#xFE0F;
 
-I'm a research engineer with 4+ years of experiences in research and development, having had the privilege to work with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation, and the Max Planck Institute for Informatics.
+I'm a research engineer with 4+ years of experience in research and development, having had the privilege to work with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation, and the Max Planck Institute for Informatics.
 
 I love to create and innovate, which is why I am passionate about research and turning it into effective applications. For the same reason, I am highly drawn to image synthesis and rendering as it allows to create images that represent the world VISUALLY. You may now have an idea why I chose to study [M.Sc. Visual Computing](https://saarland-informatics-campus.de/en/msc-visual-computing/) at one of Europe's top universities in this field, [Saarland Informatics Campus](https://saarland-informatics-campus.de/en/).
 
