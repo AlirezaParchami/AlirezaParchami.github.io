@@ -10,3 +10,6 @@ description: For a full version of my CV and references, feel free to drop me a 
 toc:
   sidebar: left
 ---
+
+{% when 'Volunteer' %}
+  {% include cv/volunteer.liquid %}
