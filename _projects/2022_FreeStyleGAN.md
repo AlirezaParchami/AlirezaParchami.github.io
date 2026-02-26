@@ -16,7 +16,15 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 ---
 <br/>
 
+
 ### About FreeStyleGAN
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/method.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
 
 **FreeStyleGAN** bridges generative AI and traditional 3D rendering to achieve **truly free-viewpoint rendering of realistic faces**. By mapping captured faces to a novel "GAN camera manifold," it overcomes the limited viewpoints of standard GANs.
 
@@ -25,7 +33,14 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 - **Seamless 3D Integration:** Readily insert synthesized faces into synthetic environments (e.g., stereoscopic rendering, path tracing).
 - **Semantic Editing:** Retain StyleGAN’s high-quality editing to easily modify attributes like facial expressions or age.
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/Free-view Camera Control.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/View-consistent Editing.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 ---
 
 * For more information on the project and methodology, visit the [Project Page](https://repo-sam.inria.fr/fungraph/freestylegan/).
@@ -47,11 +62,21 @@ My work focused on optimizing the FreeStyleGAN pipeline for scale, accessibility
 
 ### Contribution Details
 
-#### 1. Open-Source Scene Reconstruction via COLMAP
+##### 1. Open-Source Scene Reconstruction via COLMAP
 In its initial stages, the pipeline relied heavily on proprietary Reality Capture software for Structure-from-Motion (SfM) and Multi-View Stereo (MVS) reconstruction. This hard dependency limited the project's accessibility and deployment flexibility. To democratize the toolset, I developed a custom Python parser designed specifically to process COLMAP outputs. While COLMAP's open-source algorithms yield slightly different reconstruction fidelity compared to commercial alternatives, this engineering effort successfully decoupled the project from paid licensing and provided researchers with a robust, highly reliable alternative for baseline 3D mesh generation.
 
-#### 2. Headless OpenGL Support for Linux Servers
+##### 2. Headless OpenGL Support for Linux Servers
 Originally, the project's rendering pipeline was strictly bound to Windows environments due to its underlying graphical dependencies and window-based rendering requirements. This created a bottleneck for scalable cloud computing. To resolve this, I engineered a headless rendering backend using OpenGL, GLFW, and EGL. This critical update allowed the system to perform off-screen, GPU-accelerated rendering directly on headless Linux servers, successfully bridging the gap between local workstation testing and large-scale computing clusters.
 
-#### 3. High-Throughput Batch Rendering
+##### 3. High-Throughput Batch Rendering
 The legacy pipeline was limited to sequential, single-image rendering. Generating free-viewpoint sequences across multiple camera angles was highly time-consuming, leaving server GPUs severely underutilized during execution. I designed and integrated a batch rendering protocol that processes multiple novel views concurrently. This optimization dynamically maximized GPU saturation, resulting in significantly accelerated data synthesis throughput for large-scale volumetric and multi-angle rendering tasks.
+
+--- 
+
+##### Project Video
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="100%" height="400" src="https://youtu.be/MRWNBRa6EJ0?si=_wRjTBw8eRfNYMXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded z-depth-1"></iframe>
+    </div>
+</div>
