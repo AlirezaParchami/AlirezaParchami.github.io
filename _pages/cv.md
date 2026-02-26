@@ -2,11 +2,11 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
+#cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: For a full version of my CV and references, feel free to drop me a message with a brief overview of the role you’re looking to fill.
 toc:
   sidebar: left
 ---
