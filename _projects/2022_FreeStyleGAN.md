@@ -41,15 +41,11 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
         {% include video.liquid path="assets/img/projects/FreeStyleGAN/View-consistent Editing.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
----
-
-* For more information on the project and methodology, visit the [Project Page](https://repo-sam.inria.fr/fungraph/freestylegan/).
-* For applied contributions and implementation details, visit the [FreeStyleGAN Source Code](https://gitlab.inria.fr/fungraph/freestylegan).
 
 ---
 <br/>
 
-### Key Contributions
+### My Key Contributions
 
 My work focused on optimizing the FreeStyleGAN pipeline for scale, accessibility, and speed. I effectively contributed to the project's core source code by:
 
@@ -71,9 +67,16 @@ Originally, the project's rendering pipeline was strictly bound to Windows envir
 ##### 3. High-Throughput Batch Rendering
 The legacy pipeline was limited to sequential, single-image rendering. Generating free-viewpoint sequences across multiple camera angles was highly time-consuming, leaving server GPUs severely underutilized during execution. I designed and integrated a batch rendering protocol that processes multiple novel views concurrently. This optimization dynamically maximized GPU saturation, resulting in significantly accelerated data synthesis throughput for large-scale volumetric and multi-angle rendering tasks.
 
---- 
+---
 
-##### Project Video
+* For more information on the project and methodology, visit the [Project Page](https://repo-sam.inria.fr/fungraph/freestylegan/).
+* For applied contributions and implementation details, visit the [FreeStyleGAN Source Code](https://gitlab.inria.fr/fungraph/freestylegan).
+
+---
+<br/>
+
+#### Project Video
+<br/>
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
