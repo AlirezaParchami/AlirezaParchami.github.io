@@ -21,7 +21,7 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/FreeStyleGAN/method.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/method.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
 
@@ -35,10 +35,10 @@ I joined the [Image Synthesis and Machine Learning research group (ISMaeL)](http
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/FreeStyleGAN/Free-view Camera Control.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/Free-view Camera Control.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/FreeStyleGAN/View-consistent Editing.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/img/projects/FreeStyleGAN/View-consistent Editing.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
 ---
@@ -77,6 +77,7 @@ The legacy pipeline was limited to sequential, single-image rendering. Generatin
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="100%" height="400" src="https://youtu.be/MRWNBRa6EJ0?si=_wRjTBw8eRfNYMXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded z-depth-1"></iframe>
+        <!-- <iframe width="100%" height="400" src="https://youtu.be/MRWNBRa6EJ0?si=_wRjTBw8eRfNYMXe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="rounded z-depth-1"></iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MRWNBRa6EJ0?si=3kNe2viV4QMTZqkW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
