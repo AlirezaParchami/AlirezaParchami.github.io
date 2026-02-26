@@ -120,7 +120,11 @@ layout: default
           </div>
         {% endif %}
 
+
+
+
         {% comment %}
+        Alireza: I modified this part. commneted this part and put the next 2 blocks instead. Because this block merged experiences with volunteer, and i just wanted to separate them.
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
         {% assign empty_array = '' | split: ',' %}
@@ -160,6 +164,11 @@ layout: default
             </div>
           </div>
         {% endif %}
+
+
+
+
+
 
         {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
         {% for section_pair in cv.sections %}

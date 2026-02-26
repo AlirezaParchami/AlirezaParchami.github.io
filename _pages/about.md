@@ -37,6 +37,6 @@ Hi, I'm Alireza &#x1F44B;&#xFE0F;
 
 I'm a research engineer with 4+ years of experiences in research and development, having had the privilege to work with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation, and the Max Planck Institute for Informatics.
 
-I love to create and innovate, which is why I am passionate about research and turning it into effective applications. For the same reason, I am highly drawn to image synthesis and rendering as it allows to create images that represent the world VISUALLY. You may now have an idea why I chose to study my M.Sc. in Visual Computing at one of Europe's top universities in this field.
+I love to create and innovate, which is why I am passionate about research and turning it into effective applications. For the same reason, I am highly drawn to image synthesis and rendering as it allows to create images that represent the world VISUALLY. You may now have an idea why I chose to study [M.Sc. Visual Computing](https://saarland-informatics-campus.de/en/msc-visual-computing/) at one of Europe's top universities in this field, [Saarland Informatics Campus](https://saarland-informatics-campus.de/en/).
 
 I'm open to Research Engineer and R&D roles, as well as PhD opportunities, where I can contribute to projects in Computer Graphics, 3D Vision, Extended Reality, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)

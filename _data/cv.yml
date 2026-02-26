@@ -110,35 +110,35 @@ cv:
           # - Supervised by Dr. Thomas Leimkühler
 
 
-    Volunteer:
-      - company: ACM Student Chapter, University of Isfahan
-        position: Elected Member
-        # location: Zurich, Switzerland
-        start_date: 2017
-        end_date: 2019
-        summary: Co-organized programming contests, workshops, and technical events.
-        # highlights:
-        #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-        #   - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: ACM Student Chapter, University of Isfahan
+    #     position: Elected Member
+    #     # location: Zurich, Switzerland
+    #     start_date: 2017
+    #     end_date: 2019
+    #     summary: Co-organized programming contests, workshops, and technical events.
+    #     # highlights:
+    #     #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #     #   - "Men of the year 2014 by Time magazine"
 
-      - company: University of Isfahan
-        position: Technical Committee of Artificial Intelligence Challenge 2017 and 2018 (UIAI 2017 & 2018)
-        start_date: 2017
-        end_date: 2018
-        summary: Engineered client-server modules for two AI competitions
-        # location: Iran
-        # highlights:
-        #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-        #   - "Men of the year 2014 by Time magazine"
+    #   - company: University of Isfahan
+    #     position: Technical Committee of Artificial Intelligence Challenge 2017 and 2018 (UIAI 2017 & 2018)
+    #     start_date: 2017
+    #     end_date: 2018
+    #     summary: Engineered client-server modules for two AI competitions
+    #     # location: Iran
+    #     # highlights:
+    #     #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #     #   - "Men of the year 2014 by Time magazine"
 
-      - company: University of Isfahan
-        position: Scientific Team of 3rd Student Programming Contest
-        year: 2017
-        # location: Iran
-        # summary: Engineered client-server modules for two AI competitions
-        # highlights:
-        #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-        #   - "Men of the year 2014 by Time magazine"
+    #   - company: University of Isfahan
+    #     position: Scientific Team of 3rd Student Programming Contest
+    #     year: 2017
+    #     # location: Iran
+    #     # summary: Engineered client-server modules for two AI competitions
+    #     # highlights:
+    #     #   - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #     #   - "Men of the year 2014 by Time magazine"
 
 
 
