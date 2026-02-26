@@ -28,26 +28,26 @@ cv:
       - institution: Saarland University
         location: Saarbrücken, Germany
         url: https://saarland-informatics-campus.de/en/msc-visual-computing/
-        area: Computer Science
+        area: Computer Science Department
         studyType: M. Sc. Visual Computing
-        start_date: 
-        end_date: 
-        score: ""
+        # start_date:
+        # end_date: 
+        # score: ""
         courses:
-          - Focused coursework on Computer Graphics, Rendering, 3D Computer Vision
-        # highlights:
-        #   - Description 1.
+          - Coursework on Computer Graphics, Rendering, 3D Computer Vision
+        highlights:
+          - "Thesis: Multimodal Resolution for Outside the Vehicle References in Dynamic Automotive Environments"
         #   - Description 2.
 
       - institution: Univesity of Isfahan
         location: Isfahan, Iran
-        area: Information Technology
-        studyType: B. Sc. Computer Engineering
-        start_date: 2020
-        end_date: 2015
+        area: Computer Science Department
+        studyType: B. Sc. Computer Engineering - Information Technology
+        # start_date:
+        # end_date:
         highlights:
           - Ranked within the top 10% of the class
-          - Description 2.
+          - "Thesis: Efficient Full Quaternion Representation for Color Images via Autoencoders"
 
 
 
@@ -120,22 +120,22 @@ cv:
 
     Technical Skills:
       - name: Languages
-        level:
+        # level:
         icon: fa-solid fa-hashtag
         keywords: "C++, Python, C#, MATLAB"
 
       - name: Libraries
-        level:
+        # level:
         icon: fa-solid fa-hashtag
         keywords: "PyTorch, TensorFlow, OpenCV, Qt, CUDA"
 
       - name: Tools
-        level:
+        # level:
         icon: fa-solid fa-hashtag
         keywords: "Unity 3D, ComfyUI, COLMAP, Blender, MeshLab, CMake"
 
       - name: Professional
-        level:
+        # level:
         icon: fa-solid fa-hashtag
         keywords: "Research & Analysis, Parallel & GPU-Accelerated Computing, High-Performance Machine Learning, Algorithm Design"
 
