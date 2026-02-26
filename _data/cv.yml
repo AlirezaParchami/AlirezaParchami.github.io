@@ -95,7 +95,7 @@ cv:
 
       - company: École Polytechnique Fédérale de Lausanne (EPFL)
         position: Summer Research Intern
-        # year: 2021
+        year: 2021
         location: Switzerland (Remote)
         summary: Researched on Knowledge-driven Visual Understanding of Autonomous Vehicles
         # highlights:
@@ -104,7 +104,7 @@ cv:
       - company: University of Surrey (coop. with Jaguard Land Rover)
         position: Research Assistant
         location: England (Remote)
-        # year: 2021
+        year: 2021
         summary: Researched on ADAS Fault Diagnosis using RGB Frames in Autonomous Cars
         # highlights:
           # - Supervised by Dr. Thomas Leimkühler
@@ -133,7 +133,7 @@ cv:
 
       - company: University of Isfahan
         position: Scientific Team of 3rd Student Programming Contest
-        # year: 2017
+        year: 2017
         # location: Iran
         # summary: Engineered client-server modules for two AI competitions
         # highlights:
