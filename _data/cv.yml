@@ -25,7 +25,7 @@ cv:
 
 
     Education:
-      - institution: Saarland University
+      - institution: Saarland University, Germany
         location: Saarbrücken, Germany
         url: https://saarland-informatics-campus.de/en/msc-visual-computing/
         area: Computer Science Department
@@ -39,7 +39,7 @@ cv:
           - "Thesis: Multimodal Resolution for Outside the Vehicle References in Dynamic Automotive Environments"
         #   - Description 2.
 
-      - institution: Univesity of Isfahan
+      - institution: Univesity of Isfahan, Iran
         location: Isfahan, Iran
         area: Computer Science Department
         studyType: B. Sc. Computer Engineering - Information Technology
@@ -94,14 +94,16 @@ cv:
       - title: RoboCup International Competition, Honorable Mention
         authors:
         date: 2018
+        url: https://www.robocup.org/
         awarder: IranOpen 2018 International Competition
         summary: Developed an Autonomous Navigator Robot in a cross-disciplinary 6-person robotics team. Served as Image Processing Engineer.
 
       - title: 16th Place at Asia Regional Programming Contest
         authors:
         date: 2017
+        url: https://icpc.global/
         awarder: ACM Programming Contests (ACM-ICPC)
-        summary: Developed an Autonomous Navigator Robot in a cross-disciplinary 6-person robotics team. Served as Image Processing Engineer.
+        summary: 
 
 
 
@@ -121,22 +123,22 @@ cv:
     Skills:
       - name: Languages
         # level:
-        icon: fa-solid fa-hashtag
+        icon: fa-solid #fa-hashtag
         keywords: "C++, Python, C#, MATLAB"
 
       - name: Libraries
         # level:
-        icon: fa-solid fa-hashtag
+        icon: fa-solid #fa-hashtag
         keywords: "PyTorch, TensorFlow, OpenCV, Qt, CUDA"
 
       - name: Tools
         # level:
-        icon: fa-solid fa-hashtag
+        icon: fa-solid #fa-hashtag
         keywords: "Unity 3D, ComfyUI, COLMAP, Blender, MeshLab, CMake"
 
       - name: Professional
         # level:
-        icon: fa-solid fa-hashtag
+        icon: fa-solid #fa-hashtag
         keywords: "Research & Analysis, Parallel & GPU-Accelerated Computing, High-Performance Machine Learning, Algorithm Design"
 
 
