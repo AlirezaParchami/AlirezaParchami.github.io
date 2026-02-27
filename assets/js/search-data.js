@@ -436,6 +436,16 @@ ninja.data = [{
           description: "Engineering on GAN-Based Image Synthesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_FreeStyleGAN/";
+            },},{id: "projects-smarthands",
+          title: 'SmartHands',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023_SmartHands/";
+            },},{id: "projects-gini2",
+          title: 'GINI2',
+          description: "Use VR-headset and Game Pedals to teach Drums!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2024_GINI2/";
             },},{id: "projects-live-action-to-stylized-2d-animation",
           title: 'Live-Action to Stylized 2D Animation',
           description: "Using GenAI and Custom Shaders for Rendering 2D Animation out of Videos.",
