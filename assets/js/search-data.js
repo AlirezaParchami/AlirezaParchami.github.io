@@ -431,8 +431,8 @@ ninja.data = [{
           description: "The &quot;Lonely Snowman&quot; is the result of our Custom Ray-Tracing Renderer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_ComputerGraphics/";
-            },},{id: "projects-freestylegan-dev",
-          title: 'FreeStyleGAN Dev',
+            },},{id: "projects-free-stylegan-support",
+          title: 'Free StyleGAN Support',
           description: "Engineering on GAN-Based Image Synthesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_FreeStyleGAN/";
