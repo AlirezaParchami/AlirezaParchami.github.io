@@ -426,6 +426,11 @@ ninja.data = [{
           description: "The Lonely Snowman is the result of our Custom Ray-Tracing Renderer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_ComputerGraphics-FinalProject00/";
+            },},{id: "projects-custom-c-ray-tracer",
+          title: 'Custom C++ Ray Tracer',
+          description: "The &quot;Lonely Snowman&quot; is the result of our Custom Ray-Tracing Renderer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2022_ComputerGraphics/";
             },},{id: "projects-freestylegan-dev",
           title: 'FreeStyleGAN Dev',
           description: "Engineering on GAN-Based Image Synthesis",
@@ -471,11 +476,6 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-custom-c-ray-tracer",
-          title: 'Custom C++ Ray Tracer',
-          description: "The &quot;Lonely Snowman&quot; is the result of our Custom Ray-Tracing Renderer",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cg/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
