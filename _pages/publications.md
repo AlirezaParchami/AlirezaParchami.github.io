@@ -13,13 +13,13 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<!-- <div class="publications">
+<div class="publications">
 
 {% bibliography %}
 
-</div> -->
+</div>
 
-
+<!-- 
 <div class="publications">
 
   ### Authored Publications
@@ -32,4 +32,4 @@ nav_order: 2
   ### Technical Contributions
   {% bibliography --query @*[role=contributor] %}
 
-</div>
+</div> -->
