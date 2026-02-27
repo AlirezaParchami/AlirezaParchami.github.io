@@ -31,7 +31,7 @@ nav_order: 2
 <hr style="margin: 2rem 0; border: none; border-top: 3px solid rgba(0, 0, 0, 0.6);">
 <br>
 
-<h4 class="text-center" style="font-weight: 700;">Technical Contributions</h4>
+<h4 class="text-center" style="font-weight: 700;">Publications Based on My Research Software and Design</h4>
 
 {% bibliography --query @*[role=contributor] %}
 
