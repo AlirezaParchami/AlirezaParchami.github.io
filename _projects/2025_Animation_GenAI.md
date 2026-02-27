@@ -34,8 +34,8 @@ At Disney Research, I spearheaded R&D on automated animation pipelines to transf
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/style.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">2D Animated Scene with Cartoony Characters</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">2D Animated Scene with Cartoony Characters</div>
 </div>
 
 
@@ -52,24 +52,24 @@ Shaders are essential keys! They power the whole shading effects on a frame, mea
 <div class="row justify-content-center">
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/cel_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Cel Shader</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Cel Shader</div>
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Outlines_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Outlines Shader</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Outlines Shader</div>
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Painterly_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Painterly Shader</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Painterly Shader</div>
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Screen-tone_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Screen-tone Shader</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Screen-tone Shader</div>
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/mix_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Mix (Custom) Shader</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Mix (Custom) Shader</div>
 </div>
 
 **My Contribution:**
@@ -92,20 +92,20 @@ To achieve the final highly stylized look, I developed and trained advanced Gene
 <div class="row justify-content-center">
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/orig.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Orig</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Orig</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai1.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 1</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 1</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai2.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 2</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 2</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai3-tone_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai3.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 3</div>
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 3</div>
 </div>
 
 <hr style="margin: 1.5rem 0; border: none; border-top: 1.5px solid rgba(0, 0, 0, 0.4);">
@@ -117,4 +117,4 @@ Ultimately, I delivered a comprehensive comparative analysis of 2D vs. 3D animat
 
 <!-- Note: Due to the NDA and Walt Disney policy, I cannot share visual outcomes and our references publically. In case of request, more technical talk can be carried out in a video call, without compromising company data. Please feel free to reach out. -->
 
-**🔒 A Note on Visuals and Data:** Because this was an internal project at Disney Research, I cannot post final stylized videos or reference footage publicly due the NDA and The Walt Disney Company policies. That said, I'd love to talk through the context, architecture, and technical problem-solving on a call, without compromising company IP. In case you're interested, let's connect!
+**🔒 A Note on Visuals and Data:** Because this was an internal project at Disney Research, I cannot post final stylized videos or reference footage publicly due to the NDA and The Walt Disney Company policies. That said, I'd love to talk through the context, architecture, and technical problem-solving on a call, without compromising company IP. In case you're interested, let's connect!
