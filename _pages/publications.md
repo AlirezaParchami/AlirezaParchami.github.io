@@ -14,15 +14,10 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 
-<!-- <div class="publications"> -->
-<!-- {% bibliography %} -->
-<!-- </div> -->
-
-
 
 <div class="publications">
 
-<h4 class="text-center" style="font-weight: 700;">Authored Publications</h4>
+
 {% bibliography --query @*[role!=contributor] %}
 
 <br>

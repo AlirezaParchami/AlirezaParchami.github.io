@@ -1,0 +1,5 @@
+
+// This is for publication.md
+<div class="publications"> -->
+{% bibliography %}
+</div>
