@@ -3,7 +3,7 @@ layout: page
 title: Free StyleGAN Support
 description: Engineering on GAN-Based Image Synthesis
 img: assets/img/projects/FreeStyleGAN/cover.PNG
-importance: 1
+importance: 3
 category: Work
 related_publications: false
 ---
