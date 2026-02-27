@@ -13,8 +13,18 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+
+
 <div class="publications">
 
-{% bibliography %}
+  ### Authored Publications
+  {% bibliography --query @*[role!=contributor] %}
+
+  <br>
+  <hr style="margin: 2rem 0; border: none; border-top: 2.5px solid rgba(0, 0, 0, 0.5);">
+  <br>
+
+  ### Technical Contributions
+  {% bibliography --query @*[role=contributor] %}
 
 </div>
