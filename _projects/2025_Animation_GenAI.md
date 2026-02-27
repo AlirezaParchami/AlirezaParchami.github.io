@@ -11,7 +11,7 @@ related_publications: false
 
 
 {% comment %}
-I joined Disney Research to work on a highly interesting project, at the start of Video Neural Generation era, when researches tend to work on smooth and temporally-consistent video generation using neural rendering.
+I joined [Disney Research](https://studios.disneyresearch.com/) to work on a highly interesting project, at the start of Video Neural Generation era, when researches tend to work on smooth and temporally-consistent video generation using neural rendering.
 
 The concept of my project at Disney went even beyond this matter: We didn't only intend to generate ANY video, we intended to generate consistent videos according to a reference video but to apply geometry modification on characters and customize the shading effects so that the video looks as a 2D animation.
 
@@ -29,7 +29,7 @@ The concept of my project at Disney went even beyond this matter: We didn't only
 {% endcomment %}
 
 
-At Disney Research, I spearheaded R&D on automated animation pipelines to transform live-action film into highly stylized 2D cartoons. By engineering a dual-track approach of custom Toon shaders (Blender/Unity) and cutting-edge Generative AI (Stable Diffusion, AnimateDiff), I tackled the frontiers of temporally-consistent video synthesis, character geometry modification, and production-quality style transfer.
+At [Disney Research Studios](https://studios.disneyresearch.com/), I spearheaded R&D on automated animation pipelines to transform live-action film into highly stylized 2D cartoons. By engineering a dual-track approach of custom Toon shaders (Blender/Unity) and cutting-edge Generative AI (Stable Diffusion, AnimateDiff), I tackled the frontiers of temporally-consistent video synthesis, character geometry modification, and production-quality style transfer.
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0 text-center">
@@ -48,6 +48,8 @@ To solve this, I researched, prototyped, and evaluated two parallel technical pi
 
 ### Track 1: 3D Engineering & Procedural Shading
 Shaders are essential keys! They power the whole shading effects on a frame, meaning that can create various light and visual effects. In various cases, by only using a correct shader, you can completely change the dynamics, atmosphere, and style of an image, video, or video game.
+
+As an easy catch, you can see how instantly "Outline Shader" feels like a 2D sketch due to its outlines, compared to mix or painterly shaders:
 
 <div class="row justify-content-center">
     <div class="col-sm-2 mt-3 mt-md-0 text-center">
@@ -87,24 +89,29 @@ To achieve the final highly stylized look, I developed and trained advanced Gene
 
 * **Advanced ComfyUI Workflows:** Architected complex Video-to-Video generation pipelines utilizing **Stable Diffusion**, **AnimateDiff**, and **LoRA** (Low-Rank Adaptation). Implemented advanced masking and denoising strategies to enforce temporal consistency, stlye matching, and geometry modification.
 * **State-of-the-Art Model Evaluation:** Evaluated and benchmarked cutting-edge models (e.g., *AnyV2V, UniAnimate, Animate Anyone*) for robust character swapping and motion transfer from live-action to stylized characters.
-* **Targeted Style Transfer & Training:** Created curated datasets and preprocessing scripts for rigorous patch tuning. I specifically focused on notoriously difficult generation areas—like hand regions—and trained models to flawlessly translate rendered 3D content into the target 2D artistic style.
+* **Targeted Style Transfer & Training:** Created curated datasets and preprocessing scripts for rigorous patch tuning. I specifically focused on notoriously difficult generation areas (like hand regions) and trained models to flawlessly translate rendered 3D content into the target 2D artistic style.
+
+Image samples below can show how the geometry, lighting, and shading style have changed in each generated style:
 
 <div class="row justify-content-center">
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/orig.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
-        <div class="caption mt-2" style="font-size: 0.85rem;">Orig</div>
+        <div class="caption mt-2" style="font-size: 0.85rem;">Original Frame</div>
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai1.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
-        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 1</div>
+        <div class="caption mt-2" style="font-size: 0.85rem;">Generated Style 1</div>
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai2.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
-        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 2</div>
+        <div class="caption mt-2" style="font-size: 0.85rem;">Generated Style 2</div>
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai3.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
-        <div class="caption mt-2" style="font-size: 0.85rem;">Gen 3</div>
+        <div class="caption mt-2" style="font-size: 0.85rem;">Generated Style 3</div>
     </div>
 </div>
 
