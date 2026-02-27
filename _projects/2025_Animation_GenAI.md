@@ -32,11 +32,12 @@ The concept of my project at Disney went even beyond this matter: We didn't only
 At Disney Research, I spearheaded R&D on automated animation pipelines to transform live-action film into highly stylized 2D cartoons. By engineering a dual-track approach of custom Toon shaders (Blender/Unity) and cutting-edge Generative AI (Stable Diffusion, AnimateDiff), I tackled the frontiers of temporally-consistent video synthesis, character geometry modification, and production-quality style transfer.
 
 <div class="row justify-content-center">
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-8 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/style.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">2D Animated Scene with Cartoony Characters</div>
 </div>
+
 
 ### 🎬 The Vision & The Challenge
 At the start of the Video Neural Generation era, most research focused on generating *any* temporally smooth video. Our goal at Disney went much further: we needed to take live-action reference footage, completely alter the character geometry to match a highly stylized 2D aesthetic, and maintain strict temporal consistency and production quality. 
@@ -49,23 +50,23 @@ To solve this, I researched, prototyped, and evaluated two parallel technical pi
 Shaders are essential keys! They power the whole shading effects on a frame, meaning that can create various light and visual effects. In various cases, by only using a correct shader, you can completely change the dynamics, atmosphere, and style of an image, video, or video game.
 
 <div class="row justify-content-center">
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/cel_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">Cel Shader</div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Outlines_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">Outlines Shader</div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Painterly_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">Painterly Shader</div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/Screen-tone_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">Screen-tone Shader</div>
-    <div class="col-sm-3 mt-3 mt-md-0 text-center">
+    <div class="col-sm-2 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/mix_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
     <div class="caption mt-2" style="font-size: 0.85rem;">Mix (Custom) Shader</div>
@@ -92,19 +93,19 @@ To achieve the final highly stylized look, I developed and trained advanced Gene
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/orig.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Cel Shader</div>
+    <div class="caption mt-2" style="font-size: 0.85rem;">Orig</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai1.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Outlines Shader</div>
+    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 1</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai2.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Painterly Shader</div>
+    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 2</div>
     <div class="col-sm-3 mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/genai3-tone_shader.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
     </div>
-    <div class="caption mt-2" style="font-size: 0.85rem;">Screen-tone Shader</div>
+    <div class="caption mt-2" style="font-size: 0.85rem;">Gen 3</div>
 </div>
 
 <hr style="margin: 1.5rem 0; border: none; border-top: 1.5px solid rgba(0, 0, 0, 0.4);">
