@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Custom C++ Ray Tracer
-description: The "Lonely Snowman" is the result of our Custom Ray-Tracer Algorithm
+description: The "Lonely Snowman" is the result of our Custom Ray-Tracing Renderer
 img: assets/img/projects/2022_ComputerGraphics-FinalProject/image.png
 importance: 1
 category: Fun
