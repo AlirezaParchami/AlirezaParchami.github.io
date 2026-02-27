@@ -13,16 +13,27 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<!-- 
+<div class="publications">
+
+{% bibliography %}
+
+</div>
+ -->
 
 
 <div class="publications">
-    <h3>Authored Publications</h3>
-    {% bibliography --query @*[role!=contributor] %}
 
-    <br>
-    <hr style="margin: 2rem 0; border: none; border-top: 2.5px solid rgba(0, 0, 0, 0.5);">
-    <br>
+<h4 class="text-center" style="font-weight: 700;">Authored Publications</h4>
+{% bibliography --query @*[role!=contributor] %}
 
-    <h3>Technical Contributions</h3>
-    {% bibliography --query @*[role=contributor] %}
+<br>
+<hr style="margin: 2rem 0; border: none; border-top: 3px solid rgba(0, 0, 0, 0.6);">
+<br>
+
+<h4 class="text-center" style="font-weight: 700;">Technical Contributions</h4>
+
+{% bibliography --query @*[role=contributor] %}
+
 </div>
+
