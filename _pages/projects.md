@@ -6,7 +6,7 @@ description: A collection of my R&D and Fun Projects.
 nav: true
 nav_order: 3
 display_categories: [Work, Fun]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
