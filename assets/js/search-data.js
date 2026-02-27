@@ -401,8 +401,8 @@ ninja.data = [{
             },},{id: "news-i-ve-joined-walt-disney-research-studios-as-a-research-intern-on-genai-and-2d-toon-shaders",
           title: 'I’ve joined Walt Disney Research Studios as a Research Intern on GenAI and...',
           description: "",
-          section: "News",},{id: "news-i-39-ve-join-mercedes-benz-tech-innovation-mbti-gmbh-to-write-my-master-39-s-thesis",
-          title: 'I&amp;#39;ve join Mercedes-Benz Tech Innovation (MBTI) GmbH to write my Master&amp;#39;s Thesis',
+          section: "News",},{id: "news-i-39-ve-join-mercedes-benz-tech-innovation-mbti-to-write-my-master-39-s-thesis",
+          title: 'I&amp;#39;ve join Mercedes-Benz Tech Innovation (MBTI) to write my Master&amp;#39;s Thesis',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-04-01-MBTI/";
