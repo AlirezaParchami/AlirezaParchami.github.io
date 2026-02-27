@@ -436,6 +436,11 @@ ninja.data = [{
           description: "Engineering on GAN-Based Image Synthesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022_FreeStyleGAN/";
+            },},{id: "projects-live-action-to-stylized-2d-animation",
+          title: 'Live-Action to Stylized 2D Animation',
+          description: "Using GenAI and Custom Shaders for Rendering 2D Animation out of Videos.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2025_Animation_GenAI/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
