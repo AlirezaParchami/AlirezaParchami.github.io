@@ -10,7 +10,8 @@ related_publications: false
 
 
 
-<!-- I joined Disney Research to work on a highly interesting project, at the start of Video Neural Generation era, when researches tend to work on smooth and temporally-consistent video generation using neural rendering.
+{% comment %}
+I joined Disney Research to work on a highly interesting project, at the start of Video Neural Generation era, when researches tend to work on smooth and temporally-consistent video generation using neural rendering.
 
 The concept of my project at Disney went even beyond this matter: We didn't only intend to generate ANY video, we intended to generate consistent videos according to a reference video but to apply geometry modification on characters and customize the shading effects so that the video looks as a 2D animation.
 
@@ -25,7 +26,7 @@ The concept of my project at Disney went even beyond this matter: We didn't only
 
 
 ### My Key Contributions
- -->
+{% endcomment %}
 
 
 At Disney Research, I spearheaded R&D on automated animation pipelines to transform live-action film into highly stylized 2D cartoons. By engineering a dual-track approach of custom Toon shaders (Blender/Unity) and cutting-edge Generative AI (Stable Diffusion, AnimateDiff), I tackled the frontiers of temporally-consistent video synthesis, character geometry modification, and production-quality style transfer.
