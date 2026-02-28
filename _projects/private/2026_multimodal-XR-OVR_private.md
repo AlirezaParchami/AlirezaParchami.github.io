@@ -2,10 +2,9 @@
 layout: page
 title: Research & Development at Mercedes-Benz Tech Innovation
 description: ttt
-permalink: /private/tech-details1/
+permalink: /private/2026_multimodal-XR-OVR_private/
 img: assets/img/projects/2020_MultipleFaceRecognition/cover2.jpg
-importance: 2
-category: Private
+category: private
 related_publications: false
 ---
 
