@@ -6,6 +6,8 @@ img: assets/img/projects/2025_Animation_GenAI/cover.png
 importance: 1
 category: Work
 related_publications: false
+redirect_from: 
+  - /private/2025_Animation_GenAI_private/
 ---
 
 
