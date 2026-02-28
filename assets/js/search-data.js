@@ -491,8 +491,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-research-amp-development-at-mercedes-benz-tech-innovation",
-          title: 'Research &amp;amp; Development at Mercedes-Benz Tech Innovation',
+            },},{id: "projects-r-amp-d-at-mercedes-benz-tech-innovation",
+          title: 'R&amp;amp;D at Mercedes-Benz Tech Innovation',
           description: "Multimodal AI Fusion, Spatial Computing, and In-Vehicle XR",
           section: "Projects",handler: () => {
               window.location.href = "/private/2026_multimodal-XR-OVR_private/";
