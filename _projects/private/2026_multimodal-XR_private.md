@@ -5,6 +5,9 @@ description: ttt
 permalink: /private/tech-details1/
 img: assets/img/projects/2020_MultipleFaceRecognition/cover2.jpg
 importance: 2
-category: Fun
+category: Private
 related_publications: false
 ---
+
+
+this is in under _projects/private
