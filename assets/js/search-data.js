@@ -491,14 +491,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-research-amp-development-at-disney",
-          title: 'Research &amp;amp; Development at Disney',
-          description: "Disney",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/private/2025_Animation_GenAI_private/";
             },},{id: "projects-research-amp-development-at-mercedes-benz-tech-innovation",
           title: 'Research &amp;amp; Development at Mercedes-Benz Tech Innovation',
-          description: "ttt",
+          description: "Multimodal AI Fusion, Spatial Computing, and In-Vehicle XR",
           section: "Projects",handler: () => {
               window.location.href = "/private/2026_multimodal-XR-OVR_private/";
             },},{id: "teachings-data-science-fundamentals",
