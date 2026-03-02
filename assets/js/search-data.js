@@ -443,7 +443,7 @@ ninja.data = [{
               window.location.href = "/projects/2023_SmartHands/";
             },},{id: "projects-gini2",
           title: 'GINI2',
-          description: "Use VR-headset and Game Pedals to teach Drums!",
+          description: "Immersive VR Drumming &amp; Smart Music Education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2024_GINI2/";
             },},{id: "projects-live-action-to-stylized-2d-animation",
