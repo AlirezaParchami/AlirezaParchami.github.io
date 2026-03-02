@@ -37,13 +37,15 @@ Meanwhile, using XR headsets for passengers has proved to be effective and usefu
 
 The objective was to design a **frictionless, real-time spatial interaction paradigm**: allowing passengers to simply look at a building out the window, ask a natural language question (e.g., *"When was that church built?"*), and receive an accurate, context-aware response.
 
+
+{% comment %}
 ### **Core Engineering & Methodology**
 To solve the OVR challenge without relying on obtrusive controllers, I developed an end-to-end data and machine learning pipeline optimized for real-time vehicular deployment.
 
 * **Data Engineering & Digital Twins:** Pioneered a custom moving-car data acquisition study. I built a robust framework to strictly synchronize vehicle state telemetry (GNSS/INS trajectory) with continuous passenger head kinematics, mapping real-world motion into a high-fidelity 3D Digital Twin.
 * **Multimodal Architecture:** Architected a low-latency neural network leveraging advanced semantic language encoders and custom Transformer-based cross-attention mechanisms. This allowed the model to dynamically align discrete natural language queries with continuous spatial gaze vectors.
 * **Loss Optimization:** Engineered temporal aggregation strategies to stabilize the model's training dynamics against highly volatile, real-world motion data, effectively optimizing the precision-recall trade-off and mitigating probability polarization.
-
+{% endcomment %}
 
 ### **Results & Impact**
 By exploiting the natural redundancy of human gaze and aligning it with semantic context, the final architecture represents a significant leap forward in automotive spatial computing. 
