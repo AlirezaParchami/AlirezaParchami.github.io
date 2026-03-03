@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contrastive Learning
-date: 2021-11-10 00:00:00
+date: 2021-11-10 08:00:00
 description: Teaching AI to Understand the World Through Comparisons
 tags: AI
 categories: Science Blog
