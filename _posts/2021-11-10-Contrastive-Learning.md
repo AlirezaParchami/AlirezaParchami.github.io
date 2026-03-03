@@ -17,7 +17,10 @@ Traditionally, teaching a neural network to recognize a "dog" meant feeding it a
 
 Here is a look at how this works under the hood, from the data setup down to the vector math.
 
-### The Setup: Anchors, Positives, and Negatives
+<hr style="margin: 1rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.1);">
+
+#### **The Setup: Anchors, Positives, and Negatives**
+
 
 To teach a model by comparison, we need to build a learning environment that doesn't rely on human-annotated labels. We do this by generating three types of data points from our unlabeled dataset:
 
@@ -38,7 +41,9 @@ To teach a model by comparison, we need to build a learning environment that doe
 
 By setting up the data this way, the task becomes clear: The neural network must learn to recognize that $x$ and $x^+$ contain the same core semantic information, despite the pixel-level distortions caused by the data augmentation.
 
-### The Geometry of the Latent Space (Pushing and Pulling)
+<hr style="margin: 1rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.1);">
+
+#### **The Geometry of the Latent Space (Pushing and Pulling)**
 
 When we pass these images through a neural network (like a ResNet or Vision Transformer), the model outputs a high-dimensional vector for each image, known as an **embedding**. 
 
@@ -60,7 +65,11 @@ $$sim(q, k) = \frac{q \cdot k}{||q|| ||k||}$$
 
 Our optimization goal is straightforward: Maximize $sim(q, k^+)$ while minimizing $sim(q, k_i^-)$.
 
-### The Math: InfoNCE Loss
+<hr style="margin: 1rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.1);">
+
+
+#### **The Math: InfoNCE Loss**
+
 
 How do we actually update the network's weights to achieve this pushing and pulling? We use a loss function. The most standard one in this field is the **InfoNCE** (Information Noise-Contrastive Estimation) loss, also known as NT-Xent. 
 
@@ -73,7 +82,9 @@ Here is why this formula works so well in practice:
 * **The Denominator (The Push):** This sums up the similarity of the anchor to the positive sample *and* all $K$ negative samples. To make the overall fraction close to 1 (which drives the overall loss toward 0), the similarities to the negatives $\text{sim}(q, k_i^-)$ must be driven down to zero.
 * **The Temperature Parameter ($\tau$):** Tuning $\tau$ is critical. A smaller temperature makes the model hyper-sensitive to "hard negatives" (like the other dog in the first image). It forces the network to look closer and learn finer details to separate items that look broadly similar but aren't.
 
-### Why This Changed the Game
+<hr style="margin: 1rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.1);">
+
+#### **Why This Changed the Game**
 
 Contrastive Learning was a massive paradigm shift for AI engineering. 
 
