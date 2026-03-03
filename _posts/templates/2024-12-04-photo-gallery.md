@@ -6,7 +6,7 @@ description: this is what included image galleries could look like
 tags: formatting images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
-hidden: true
+#hidden: true # use this to hide the post
 images:
   lightbox2: true
   photoswipe: true

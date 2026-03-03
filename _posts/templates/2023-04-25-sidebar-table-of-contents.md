@@ -7,7 +7,6 @@ tags: formatting toc sidebar
 categories: sample-posts
 giscus_comments: true
 related_posts: false
-permalink: /blog-template/
 toc:
   sidebar: left
 ---

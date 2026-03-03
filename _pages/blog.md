@@ -7,7 +7,7 @@ nav_order: 1
 pagination:
   enabled: true
   collection: posts
-  category: real-blog
+  category: blog # this is to exclude template posts that has sample-posts category. If you ever want to show them, remove this line. Also, you must include 'blog' category for all real posts.
   permalink: /page/:num/
   per_page: 5
   sort_field: date
