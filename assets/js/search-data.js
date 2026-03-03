@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-from-text-to-physicalai",
+        },{id: "post-from-text-to-physical-ai-part-0-overview",
         
-          title: "From Text To Physicalai",
+          title: "From Text to Physical AI - Part 0: Overview",
         
-        description: "",
+        description: "Notes on my study journey to prepare for NVIDIA Interview",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/From-Text-To-PhysicalAI/";
+            window.location.href = "/blog/2025/From-Text-To-PhysicalAI-Part0/";
           
         },
       },{id: "post-a-post-with-plotly-js",
