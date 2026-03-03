@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-from-text-to-physical-ai-part-0-overview",
+        },{id: "post-from-text-to-physical-ai-an-overview",
         
-          title: "From Text to Physical AI - Part 0: Overview",
+          title: "From Text to Physical AI - An Overview",
         
-        description: "Notes on my study journey to prepare for NVIDIA Interview",
+        description: "My journey on LLMs/VLMs/VLAs to get prepared for NVIDIA Interview",
         section: "Posts",
         handler: () => {
           
