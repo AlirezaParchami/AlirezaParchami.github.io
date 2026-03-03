@@ -7,7 +7,7 @@ nav_order: 1
 pagination:
   enabled: true
   collection: posts
-  category: science travel real-blog
+  category: real-blog
   permalink: /page/:num/
   per_page: 5
   sort_field: date
