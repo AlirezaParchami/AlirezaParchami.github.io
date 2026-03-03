@@ -4,7 +4,7 @@ title: Contrastive Learning
 date: 2021-11-10 00:00:00
 description: Teaching AI to Understand the World Through Comparisons
 tags: AI
-categories: Science
+categories: Science Blog
 giscus_comments: false
 related_posts: false
 related_publications: false
