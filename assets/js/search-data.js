@@ -305,6 +305,17 @@ ninja.data = [{
             window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
+      },{id: "post-contrastive-learning",
+        
+          title: "Contrastive Learning",
+        
+        description: "Teaching AI to Understand the World Through Comparisons",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/Contrastive-Learning/";
+          
+        },
       },{id: "post-a-post-with-diagrams",
         
           title: "a post with diagrams",
