@@ -8,6 +8,7 @@ categories: Science Blog
 giscus_comments: false
 related_posts: false
 related_publications: false
+thumbnail: assets/img/posts/2021-11-10-Contrastive-Learning/data_setup.png
 ---
 
 Traditionally, teaching a neural network to recognize a "dog" meant feeding it a million manually labeled images. But humans don't learn that way. A toddler figures out what a dog is by seeing one, then seeing a cat, and intuitively realizing: *"These two are different, but that other dog I saw earlier is similar to the first one."*
@@ -27,7 +28,7 @@ To teach a model by comparison, we need to build a learning environment that doe
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2021-11-10_Contrastive-Learning/data_setup.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/posts/2021-11-10-Contrastive-Learning/data_setup.png" class="img-fluid rounded z-depth-1" %}
         <div class="caption mt-2" style="font-size: 0.85rem;">The data setup in a contrastive learning framework. The anchor and positive are augmented views of the same golden retriever. The negatives are different images. Notice the rightmost negative—it's another dog! This is known as a "hard negative" and forces the model to learn fine-grained, semantic differences.</div>
     </div>
 </div>
@@ -46,7 +47,7 @@ The entire goal of Contrastive Learning is to sculpt this high-dimensional embed
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0 text-center">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2021-11-10_Contrastive-Learning/latent_space.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/posts/2021-11-10-Contrastive-Learning/latent_space.png" class="img-fluid rounded z-depth-1" %}
         <div class="caption mt-2" style="font-size: 0.85rem;">A 2D visualization of the latent embedding space. Left: Before optimization, the Query is scattered randomly. Right: After applying contrastive loss, the Query vector is pulled tightly toward the Positive Sample and pushed away from the Negatives.</div>
     </div>
 </div>
