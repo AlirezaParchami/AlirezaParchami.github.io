@@ -6,7 +6,7 @@ description: this is what included image galleries could look like
 tags: formatting images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
-permalink: /blog-template/
+hidden: true
 images:
   lightbox2: true
   photoswipe: true
