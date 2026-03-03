@@ -8,7 +8,7 @@ categories: Science Blog
 giscus_comments: false
 related_posts: false
 related_publications: false
-thumbnail: assets\img\posts\2025-From-Text-To-PhysicalAI-Part0\foundation_mode.jpg
+thumbnail: assets/img/posts/2025-From-Text-To-PhysicalAI-Part0/foundation_model.jpg
 ---
 
 
