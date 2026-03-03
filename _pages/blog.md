@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: Technical Blog
+title: R&D Blog
 nav: true
 nav_order: 4
 pagination:
