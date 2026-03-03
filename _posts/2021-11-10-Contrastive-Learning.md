@@ -37,8 +37,6 @@ To teach a model by comparison, we need to build a learning environment that doe
 </div>
 
 
-*The data setup in a contrastive learning framework (like SimCLR). Notice the rightmost negative—it's another dog. This is a "hard negative" that forces the model to learn fine-grained differences.*
-
 By setting up the data this way, the task becomes clear: The neural network must learn to recognize that $x$ and $x^+$ contain the same core semantic information, despite the pixel-level distortions caused by the data augmentation.
 
 <hr style="margin: 1rem 0; border: none; border-top: 1px solid rgba(0, 0, 0, 0.1);">
@@ -57,7 +55,6 @@ The entire goal of Contrastive Learning is to sculpt this high-dimensional embed
     </div>
 </div>
 
-*Left: Before optimization, the Query (anchor) is scattered randomly. Right: After applying contrastive loss, the Query vector is pulled tightly toward the Positive Sample and pushed away from the Negatives.*
 
 Mathematically, we measure the distance between these vectors using **Cosine Similarity**. If $q$ is the vector for our query/anchor and $k$ is the vector for another image, the similarity is simply the dot product of their normalized vectors:
 
