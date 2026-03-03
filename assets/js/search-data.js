@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -71,7 +71,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -82,7 +82,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -93,7 +93,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -104,7 +104,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -115,7 +115,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -126,7 +126,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -137,7 +137,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -148,7 +148,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -280,7 +280,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -313,7 +313,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -324,7 +324,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -335,7 +335,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -346,7 +346,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -357,7 +357,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -368,7 +368,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -379,7 +379,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -390,7 +390,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
