@@ -134,3 +134,27 @@ blockquote {
     }
   }
 }
+
+
+/* --- Custom Global Spacing (Blogs, Projects, Pages) --- */
+.post {
+  
+  /* 1. Breathing room for Headings */
+  h2, h3, h4 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* 2. Distance between paragraphs */
+  p {
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* 3. Distance between bullet points */
+  ul, ol {
+    li {
+      margin-bottom: 0.8rem !important;
+      line-height: 1.6;
+    }
+  }
+}
