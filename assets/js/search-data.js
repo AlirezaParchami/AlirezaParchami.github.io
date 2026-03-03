@@ -159,7 +159,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -170,7 +170,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -181,7 +181,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -192,7 +192,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -203,7 +203,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -214,7 +214,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -225,7 +225,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -258,7 +258,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -269,7 +269,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog-template/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
