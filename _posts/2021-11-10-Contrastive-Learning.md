@@ -56,7 +56,7 @@ The entire goal of Contrastive Learning is to sculpt this high-dimensional embed
 
 Mathematically, we measure the distance between these vectors using **Cosine Similarity**. If $q$ is the vector for our query/anchor and $k$ is the vector for another image, the similarity is simply the dot product of their normalized vectors:
 
-$sim(q, k) = \frac{q \cdot k}{||q|| ||k||}$
+$$sim(q, k) = \frac{q \cdot k}{||q|| ||k||}$$
 
 Our optimization goal is straightforward: Maximize $sim(q, k^+)$ while minimizing $sim(q, k_i^-)$.
 
