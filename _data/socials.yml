@@ -3,10 +3,15 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
 #cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: alpa00003@uni-saarland.de # your email address
+email: alpa00003@stud.uni-saarland.de # your email address
 scholar_userid: 6Pf64OIAAAAJ # your Google Scholar ID
 linkedin_username: alireza-parchami
-#goodreads: 87972636
+github_username: AlirezaParchami
+goodreads: 87972636
+custom_social:
+  title: Goodreads
+  url: https://www.goodreads.com/user/show/87972636-alireza
+  logo: /assets/img/goodreads-logo.png
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 
