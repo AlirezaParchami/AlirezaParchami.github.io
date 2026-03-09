@@ -540,7 +540,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%6C%70%61%30%30%30%30%33@%75%6E%69-%73%61%61%72%6C%61%6E%64.%64%65", "_blank");
+          window.open("mailto:%61%6C%70%61%30%30%30%30%33@%73%74%75%64.%75%6E%69-%73%61%61%72%6C%61%6E%64.%64%65", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -555,6 +555,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/alireza-parchami", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/AlirezaParchami", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.goodreads.com/user/show/87972636-alireza", "_blank");
         },
       },{
       id: 'light-theme',
