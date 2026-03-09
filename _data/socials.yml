@@ -10,7 +10,7 @@ github_username: AlirezaParchami
 custom_social:
   title: Goodreads
   url: https://www.goodreads.com/user/show/87972636-alireza
-  logo: /assets/img/goodreads-logo.png
+  logo: "fa-brands fa-goodreads"
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 
