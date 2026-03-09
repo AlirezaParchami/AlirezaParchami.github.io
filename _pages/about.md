@@ -33,6 +33,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
+{% comment %}
 Hi, I'm Alireza &#x1F44B;&#xFE0F;
 
 I'm a research engineer with 4+ years of experience in research and development, having worked with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation (MBTI), and the Max Planck Institute for Informatics. I'm currently finalizing my Master's thesis under the supervision of [Prof. Jürgen Steimle](https://hci.cs.uni-saarland.de/people/juergen-steimle/), in collaboration with [MBTI](https://www.mercedes-benz-techinnovation.com/en).
@@ -40,3 +41,13 @@ I'm a research engineer with 4+ years of experience in research and development,
 I love to create and innovate, which is why I am passionate about research and turning it into effective applications. For the same reason, I am highly drawn to image synthesis and rendering as it allows to create images that represent the world VISUALLY. You may now have an idea why I chose to study [M.Sc. Visual Computing](https://saarland-informatics-campus.de/en/msc-visual-computing/) at one of Europe's top universities in this field, [Saarland Informatics Campus](https://saarland-informatics-campus.de/en/).
 
 I'm open to Research Engineer and R&D roles, as well as PhD opportunities, where I can contribute to projects in Computer Graphics, 3D Vision, Extended Reality, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)
+{% endcomment %}
+
+
+Hello &#x1F44B;&#xFE0F;
+
+I'm Alireza, a research engineer with 4+ years of R&D experience, having worked with incredible teams at Disney Research, EPFL, Mercedes-Benz Tech Innovation (MBTI), and the Max Planck Institute for Informatics. I'm currently finalizing my Master's thesis under the supervision of [Prof. Jürgen Steimle](https://hci.cs.uni-saarland.de/people/juergen-steimle/), in collaboration with [MBTI](https://www.mercedes-benz-techinnovation.com/en).
+
+Driven by a passion for image synthesis and acquisition, I chose to pursue [M.Sc. Visual Computing](https://saarland-informatics-campus.de/en/msc-visual-computing/) at one of Europe's top institutions in the field, [Saarland Informatics Campus](https://saarland-informatics-campus.de/en/). My research lies at the intersection of computer graphics, rendering, and 3D computer vision, utilizing both AI-based and mathematical approaches.
+
+I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)
