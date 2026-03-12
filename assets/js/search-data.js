@@ -450,6 +450,11 @@ ninja.data = [{
           description: "Using Deep Learning for Multiple Face Recognition (Face Detection + Face Tagging) with capability of learning your people",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2020_MultipleFaceRecognition/";
+            },},{id: "projects-teaching-ai-the-rules-of-the-road",
+          title: 'Teaching AI the Rules of the Road',
+          description: "EPFL Porject on Knowledge-driven Trajectory Prediction for Autonomous Vehicles",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2021_Knowledge-driven-Visual-Understanding/";
             },},{id: "projects-custom-c-ray-tracer",
           title: 'Custom C++ Ray Tracer',
           description: "The Lonely Snowman is the result of our Custom Ray-Tracing Renderer",
