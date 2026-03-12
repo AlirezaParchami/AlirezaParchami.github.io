@@ -127,3 +127,9 @@ Ultimately, I delivered a comprehensive comparative analysis of 2D vs. 3D animat
 <!-- Note: Due to the NDA and Walt Disney policy, I cannot share visual outcomes and our references publically. In case of request, more technical talk can be carried out in a video call, without compromising company data. Please feel free to reach out. -->
 
 **🔒 A Note on Visuals and Data:** Because this was an internal project at Disney Research, I cannot post final stylized videos or reference footage publicly due to the NDA and The Walt Disney Company policies. That said, I'd love to talk through the context, architecture, and technical problem-solving on a call, without compromising company IP. In case you're interested, let's connect!
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/2025_Animation_GenAI/logo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
