@@ -43,7 +43,7 @@ latest_posts:
     width: 100%; 
     height: auto; /* Keep this so it shrinks nicely on mobile! */
     margin: 0 !important; /* Kills any invisible bottom gaps injected by the theme */
-    transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
   }
 
   .profile:hover img {
@@ -79,7 +79,7 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
 
 <style>
   .affiliation-logo {
-    max-height: 45px; /* Shrunk slightly so it doesn't overpower your text */
+    max-height: 50px; /* Shrunk slightly so it doesn't overpower your text */
     width: auto; 
     object-fit: contain;
     mix-blend-mode: multiply; 
@@ -97,7 +97,7 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
     {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" style="max-height: 35px;" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" style="max-height: 55px;" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" %}
 </div>
 
