@@ -29,10 +29,7 @@ latest_posts:
 
 <style>
   .profile {
-    background-image: url('{{ "/assets/img/alireza3-orig.jpg" | relative_url }}');
-    background-size: 100% 100%; /* Forces exact 1-to-1 scaling, no cropping */
-    background-position: top left; /* Aligns perfectly with the top-left of the img tag */
-    background-repeat: no-repeat;
+    background-image: url('{{ "/assets/img/alireza3-orig.jpg" }}');
     border-radius: 20px; 
     overflow: hidden; 
     padding: 0; /* Ensures no internal spacing offsets the background */
@@ -41,7 +38,6 @@ latest_posts:
   .profile img {
     display: block; /* Kills the invisible gap beneath the image */
     width: 100%; 
-    height: auto;
     transition: opacity 0.4s ease-in-out;
   }
 
