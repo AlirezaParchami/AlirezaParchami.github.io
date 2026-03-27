@@ -6,7 +6,7 @@ subtitle: Research Engineer | Visual Computing and AI # <a href='#'>Affiliations
 
 profile:
   align: right
-  image: alireza.jpg
+  image: alireza2.png
   image_circular: false # crops the image to make it circular
   style: "border-radius: 20px;"
 
@@ -51,3 +51,21 @@ I'm Alireza, a research engineer with 4+ years of R&D experience, having worked 
 Driven by a passion for image synthesis and acquisition, I chose to pursue [M.Sc. Visual Computing](https://saarland-informatics-campus.de/en/msc-visual-computing/) at one of Europe's top institutions in the field, [Saarland Informatics Campus](https://saarland-informatics-campus.de/en/). My research lies at the intersection of computer graphics, rendering, and 3D computer vision, utilizing both AI-based and mathematical approaches.
 
 I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)
+
+<div class="row justify-content-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" title="" class="img-fluid rounded z-depth-1 eq-height-img" %}
+    </div>
+</div>
