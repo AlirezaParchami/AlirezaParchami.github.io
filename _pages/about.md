@@ -29,15 +29,20 @@ latest_posts:
 
 <style>
   .profile {
-    background-image: url('{{ "/assets/img/alireza3-orig.jpg" }}');
+    background-image: url('{{ "/assets/img/alireza3-orig.jpg" | relative_url }}');
+    background-size: contain; /* Prevents stretching, forces strict 1:1 aspect ratio */
+    background-position: top center; 
+    background-repeat: no-repeat;
     border-radius: 20px; 
     overflow: hidden; 
-    padding: 0; /* Ensures no internal spacing offsets the background */
+    padding: 0; 
   }
 
   .profile img {
-    display: block; /* Kills the invisible gap beneath the image */
+    display: block; 
     width: 100%; 
+    height: auto; /* Keep this so it shrinks nicely on mobile! */
+    margin: 0 !important; /* Kills any invisible bottom gaps injected by the theme */
     transition: opacity 0.4s ease-in-out;
   }
 
