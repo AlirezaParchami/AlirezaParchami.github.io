@@ -52,36 +52,28 @@ Driven by a passion for image synthesis and acquisition, I chose to pursue [M.Sc
 
 I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI, and AI. Beyond career opportunities, I always welcome the chance to connect with fellow researchers and students. If you have anything to chat, feel free to reach out :)
 
+
 <style>
   .affiliation-logo {
-    max-height: 50px; /* Forces all logos to have the exact same height */
-    width: auto; /* Keeps the original proportions */
+    max-height: 45px; /* Shrunk slightly so it doesn't overpower your text */
+    width: auto; 
     object-fit: contain;
-    mix-blend-mode: multiply; /* PRO-TIP: This instantly makes white backgrounds invisible on a light page! */
-    filter: grayscale(100%) opacity(70%); /* Optional: Makes them look professional and less distracting */
-    transition: all 0.3s ease;
+    mix-blend-mode: multiply; 
+    /* filter: grayscale(100%) opacity(70%);  */
+    /* transition: all 0.3s ease; */
+    margin: 10px 1.5rem; /* This is the magic! It forces exactly 1.5rem of space between every logo */
   }
   
-  /* Optional: Adds a nice hover effect where they light up with color */
   .affiliation-logo:hover {
     filter: grayscale(0%) opacity(100%);
   }
 </style>
 
-<div class="row justify-content-center align-items-center mb-5">
-    <div class="col-sm-2 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo" %}
-    </div>
-    <div class="col-sm-2 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo" %}
-    </div>
-    <div class="col-sm-2 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" %}
-    </div>
-    <div class="col-sm-2 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" %}
-    </div>
-    <div class="col-sm-2 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" %}
-    </div>
+<div class="d-flex flex-wrap justify-content-center align-items-center mt-4 mb-5">
+    {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" %}
 </div>
+
