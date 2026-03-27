@@ -28,21 +28,23 @@ latest_posts:
 ---
 
 <style>
-  /* 1. Set the original RGB image as the hidden background */
   .profile {
     background-image: url('{{ "/assets/img/alireza3-orig.jpg" | relative_url }}');
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px; /* This matches your YAML style */
-    overflow: hidden; /* Ensures the background stays inside the rounded corners */
+    background-size: 100% 100%; /* Forces exact 1-to-1 scaling, no cropping */
+    background-position: top left; /* Aligns perfectly with the top-left of the img tag */
+    background-repeat: no-repeat;
+    border-radius: 20px; 
+    overflow: hidden; 
+    padding: 0; /* Ensures no internal spacing offsets the background */
   }
 
-  /* 2. Add a smooth transition to the generated image */
   .profile img {
+    display: block; /* Kills the invisible gap beneath the image */
+    width: 100%; 
+    height: auto;
     transition: opacity 0.4s ease-in-out;
   }
 
-  /* 3. On hover, fade out the generated image to reveal the original! */
   .profile:hover img {
     opacity: 0;
   }
@@ -82,7 +84,7 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
     mix-blend-mode: multiply; 
     /* filter: grayscale(100%) opacity(70%);  */
     /* transition: all 0.3s ease; */
-    margin: 10px 1.5rem; /* This is the magic! It forces exactly 1.5rem of space between every logo */
+    margin: 10px 1rem; /* This is the magic! It forces exactly 1.5rem of space between every logo */
   }
   
   .affiliation-logo:hover {
@@ -93,7 +95,7 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
 <div class="d-flex flex-wrap justify-content-center align-items-center mt-4 mb-5">
     {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" style="max-height: 35px;" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" %}
     {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" %}
 </div>
