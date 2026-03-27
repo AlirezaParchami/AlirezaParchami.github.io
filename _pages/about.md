@@ -78,26 +78,34 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
 
 
 
-
 <style>
   /* 1. The wrapper controls the spacing and alignment */
   .logo-wrapper {
-    margin: 10px 0.8rem; 
+    margin: 10px 1rem; 
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
-  /* 2. The logo just inherits the exact height of its specific wrapper */
-  .affiliation-logo {
-    height: 100%; 
-    width: auto;
+  /* 2. Force both the hidden Jekyll <figure> and the <img> to obey the wrapper's height */
+  .logo-wrapper figure,
+  .logo-wrapper img {
+    height: 100% !important; 
+    max-height: 100% !important;
+    width: auto !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 3. Apply the visual effects strictly to the image */
+  .logo-wrapper img {
     object-fit: contain;
     mix-blend-mode: multiply;
     /* filter: grayscale(100%) opacity(70%); */
     /* transition: all 0.3s ease; */
   }
   
-  .affiliation-logo:hover {
+  .logo-wrapper img:hover {
     filter: grayscale(0%) opacity(100%);
   }
 </style>
