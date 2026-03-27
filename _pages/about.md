@@ -79,7 +79,7 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
 
 <style>
   .affiliation-logo {
-    max-height: 50px; /* Shrunk slightly so it doesn't overpower your text */
+    /* max-height: 45px; Shrunk slightly so it doesn't overpower your text */
     width: auto; 
     object-fit: contain;
     mix-blend-mode: multiply; 
@@ -94,10 +94,10 @@ I'm open to Research Engineer roles and PhD opportunities in CG, 3D Vision, HCI,
 </style>
 
 <div class="d-flex flex-wrap justify-content-center align-items-center mt-4 mb-5">
-    {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo" style="max-height: 35px;" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo" style="max-height: 55px;" %}
-    {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/disney.png" class="affiliation-logo"  style="max-height: 45px;" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/uds.png" class="affiliation-logo"     style="max-height: 45px;" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/epfl.png" class="affiliation-logo"    style="max-height: 35px;" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/mbti.png" class="affiliation-logo"    style="max-height: 55px;" %}
+    {% include figure.liquid loading="eager" path="assets/img/logos/mpi-inf.png" class="affiliation-logo" style="max-height: 35px;" %}
 </div>
 
