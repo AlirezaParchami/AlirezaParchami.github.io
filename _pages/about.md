@@ -6,7 +6,7 @@ subtitle: Research Engineer | Visual Computing and AI # <a href='#'>Affiliations
 
 profile:
   align: right
-  image: alireza3.png
+  image: alireza3.jpg
   image_circular: false # crops the image to make it circular
   style: "border-radius: 20px;"
 
@@ -26,6 +26,27 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<style>
+  /* 1. Set the original RGB image as the hidden background */
+  .profile {
+    background-image: url('{{ "/assets/img/alireza3-orig.jpg" | relative_url }}');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px; /* This matches your YAML style */
+    overflow: hidden; /* Ensures the background stays inside the rounded corners */
+  }
+
+  /* 2. Add a smooth transition to the generated image */
+  .profile img {
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  /* 3. On hover, fade out the generated image to reveal the original! */
+  .profile:hover img {
+    opacity: 0;
+  }
+</style>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
