@@ -472,7 +472,7 @@ ninja.data = [{
               window.location.href = "/projects/2022_FreeStyleGAN/";
             },},{id: "projects-smarthands",
           title: 'SmartHands',
-          description: "",
+          description: "Immersive VR &amp; Haptics for Medical Education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023_SmartHands/";
             },},{id: "projects-gini2",
