@@ -9,9 +9,9 @@ last_name: Parchami
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website and portfolio of Alireza Parchami. Researcher specializing in Computer Graphics, Visual Computing, Rendering, and Generative AI.
+  Personal website and portfolio of Alireza Parchami. Researcher specializing in Computer Graphics, Visual Computing, Rendering, Generative AI, and XR.
 footer_text: >
-  Copyright 2026 Alireza Parchami. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   
 keywords: Alireza Parchami, Alireza Computer Graphics, rendering, parchami, visual computing, AI, Generative AI, computer graphics, saarland, disney, epfl # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

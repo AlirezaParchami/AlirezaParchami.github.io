@@ -4,7 +4,7 @@ title: SmartHands
 description: Immersive VR & Haptics for Medical Education
 img: assets/img/projects/2023_SmartHands/picture1.png
 importance: 4
-category: work
+category: Work
 related_publications: false
 ---
 
