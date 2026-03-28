@@ -2,7 +2,7 @@
 layout: page
 title: Live-Action to Stylized 2D Animation
 description: Using GenAI and Custom Shaders for Rendering 2D Animation out of Videos.
-img: assets/img/projects/2025_Animation_GenAI/cover.png
+img: assets/img/projects/2025_Animation_GenAI/cover.jpg
 importance: 1
 category: Work
 related_publications: false
