@@ -13,7 +13,7 @@ related_publications: false
 **Funding:** Federal Ministry of Education and Research (BMBF)  
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0 text-center">
+    <div class="col-sm-9 mt-3 mt-md-0 text-center">
         {% include video.liquid path="assets/img/projects/2023_SmartHands/demo.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
         <div class="caption mt-2" style="font-size: 0.85rem;">Demonstrating the VR spinal palpation scene, where users receive real-time force feedback and vibration via SenseGlove haptic wearables.</div>
     </div>
@@ -27,18 +27,13 @@ Historically, vocational education in healthcare has faced a critical gap: there
 ## ⚙️ My Contribution: Engineering the Sense of Touch
 While the foundational project established a robust eLearning web solution, teaching *manual* therapy in a purely visual digital space lacks the most critical element of the profession: physical touch. To bridge this gap, I led the design and technical integration of an advanced, haptic-enabled VR module.
 
-* **Immersive VR Scene Architecture:** Designed and developed a complete Oculus VR training environment from scratch, dropping the user into a clinical room with a virtual patient.
-* **Interactive Spinal Anatomy Mapping:** Engineered the core digital learning mechanic. The system dynamically highlights specific anatomical points on the virtual patient's spine, requiring the user to physically reach out, navigate the anatomy, and learn their exact placement on the human body.
-* **SenseGlove Haptic Integration:** Programmed the real-time integration of SenseGlove haptic exoskeletons directly into the immersion scene. When users interact with the targeted spinal points, the system processes their hand positioning and triggers precise force feedback and vibration. 
-* **Sensorimotor Learning Loop:** By simulating physical resistance and tactile confirmation upon touching the virtual spine, the scene successfully transforms a purely visual task into a highly effective sensorimotor learning experience.
-
 
 * **Immersive VR Scene Architecture:** Designed and developed a complete Oculus VR training environment from scratch, dropping the user into a clinical room with a virtual patient.
 * **SenseGlove Haptic Integration:** Programmed the real-time integration of SenseGlove haptic exoskeletons directly into the immersion scene. When users interact with the targeted spinal points, the system processes their hand positioning and triggers precise force feedback and vibration. 
 * **Mathematical Animation via B-Splines:** Implemented B-spline curves to calculate and generate mathematically smooth, continuous locomotion paths for the virtual patient. This computer graphics technique ensures highly realistic spatial movement and natural interactions with virtual objects in the room, breaking the stiffness often seen in standard VR avatars.
 * **Voice-Controlled Animation Blending:** Engineered a responsive interaction system allowing the user to guide the virtual patient via voice commands (e.g., instructing the patient to *"turn your head to the left"*). The system dynamically triggers and blends smooth animations in real-time, simulating a lifelike clinical examination.
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0 text-center">
+    <div class="col-sm-5 mt-3 mt-md-0 text-center">
         {% include video.liquid path="assets/img/projects/2023_SmartHands/move-command.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
     </div>
 </div>
