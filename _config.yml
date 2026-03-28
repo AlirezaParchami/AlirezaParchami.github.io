@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Alireza Parchami # the website title (if blank, full name will be used instead)
 first_name: Alireza
 middle_name: 
 last_name: Parchami
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website and portfolio of Alireza Parchami. Researcher specializing in Computer Graphics, Visual Computing, Rendering, and Generative AI.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Copyright 2026 Alireza Parchami. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   
-keywords: Alireza Parchami, Alireza Computer Graphics, rendering, parchami, visual computing, AI, Generative AI, computer graphics # add your own keywords or leave empty
+keywords: Alireza Parchami, Alireza Computer Graphics, rendering, parchami, visual computing, AI, Generative AI, computer graphics, saarland, disney, epfl # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

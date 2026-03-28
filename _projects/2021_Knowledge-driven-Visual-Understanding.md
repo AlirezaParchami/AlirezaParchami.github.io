@@ -3,7 +3,7 @@ layout: page
 title: Teaching AI the Rules of the Road
 description: EPFL Porject on Knowledge-driven Trajectory Prediction for Autonomous Vehicles
 img: assets/img/projects/2021_Knowledge-driven-Visual-Understanding/negative_samples.png
-importance: 4
+importance: 2
 category: Work
 related_publications: false
 ---
